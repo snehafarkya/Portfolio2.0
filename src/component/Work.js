@@ -1,5 +1,6 @@
 import React from "react";
 import work from "./WorkInfo";
+import { Heading } from "@chakra-ui/react";
 export default function Work() {
   const workData = work.map((item) => {
     return (
@@ -56,6 +57,15 @@ export default function Work() {
   });
   return (
     <div>
+      <Heading as="h2" size="lg" color="white" fontFamily= 'Orbitron' letterSpacing='1px' fontWeight="bold" className="flex flex-wrap px-4 text-left md:justify-center">
+              {" "}
+              As an  &nbsp;
+              <span style={{ color: "#1A165C ", fontWeight: "bold" }}>
+                {" "} 
+                Open Source enthusiast, {" "}
+              </span>
+               these are some of my projects.
+            </Heading>
       <div className="grid md:grid-cols-3 grid-cols-1  place-items-center ">
         {workData}
       </div>

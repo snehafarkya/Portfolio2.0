@@ -13,18 +13,18 @@ import hero from "../assets/heroimg.png";
 export default function Hero() {
   return (
     <div
-      className="herosec"
-      style={{
-        display: "grid",
-        gridTemplateColumns: "auto auto",
-        justifyContent: "center",
-        alignItems: "center",
-        gap: "10em",
+      className="herosec grid grid-cols-1 md:grid-cols-2 md:gap-10 place-items-center "
+      // style={{
+      //   display: "grid",
+      //   gridTemplateColumns: "auto auto",
+      //   justifyContent: "center",
+      //   alignItems: "center",
+      //   gap: "10em",
         
-      }}
+      // }}
     >
-      <div className="hero-content">
-        <Card w="xl" m="auto" background="transparent">
+      <div className="hero-content order-last md:order-first">
+        <Card w={{md:'xl'}} m="auto" background="transparent" className="w-lg ">
           <CardHeader>
             <Heading as="h2" size="2xl" color="white" fontWeight="bold">
               {" "}
