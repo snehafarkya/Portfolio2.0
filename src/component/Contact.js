@@ -19,7 +19,7 @@ export default function Contact() {
   </Heading>
     <div className='grid grid-cols-1 place-items-center md:grid-cols-2 h-full '>
       <img src={contact} alt="" />
-      <div class="exp-card block p-6 rounded-lg shadow-lg bg-white max-w-md m-2">
+      <div class="exp-card block p-6 rounded-lg shadow-lg bg-white max-w-md m-4">
       
   <form>
     <div class="form-group mb-6">
