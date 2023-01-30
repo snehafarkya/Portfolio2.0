@@ -77,7 +77,7 @@ const MenuLinks = ({ isOpen }) => {
         <MenuItem to="/about" className='nav-link' > About Me</MenuItem>
         <MenuItem to="/faetures" className='nav-link' > Blogs </MenuItem>
         <MenuItem to="/work" className='nav-link' > Work </MenuItem>
-        <MenuItem to="/pricing" className='nav-link' > Contact </MenuItem>
+        <MenuItem to="/contact" className='nav-link' > Contact </MenuItem>
 
         {/* <MenuItem to="/pricing"> Contact Me </MenuItem> */}
         <MenuItem to={resume} isLast>
