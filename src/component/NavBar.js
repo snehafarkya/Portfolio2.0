@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, Box, Flex, Text, Button, Stack, Heading } from "@chakra-ui/react";
-
+import resume from '../assets/resume.pdf'
 // import { ReactComponent as Logo } from "../crown.svg";
 // import Logo from '../logo.svg'
 
@@ -73,14 +73,14 @@ const MenuLinks = ({ isOpen }) => {
         pt={[4, 4, 0, 0]}
         color='white'
       >
-        <MenuItem to="/" >Home</MenuItem>
-        <MenuItem to="/about"> About Me</MenuItem>
-        <MenuItem to="/faetures"> Blogs </MenuItem>
-        <MenuItem to="/work"> Work </MenuItem>
-        <MenuItem to="/pricing"> Contact </MenuItem>
+        <MenuItem to="/" className='nav-link' >Home</MenuItem>
+        <MenuItem to="/about" className='nav-link' > About Me</MenuItem>
+        <MenuItem to="/faetures" className='nav-link' > Blogs </MenuItem>
+        <MenuItem to="/work" className='nav-link' > Work </MenuItem>
+        <MenuItem to="/pricing" className='nav-link' > Contact </MenuItem>
 
         {/* <MenuItem to="/pricing"> Contact Me </MenuItem> */}
-        <MenuItem to="/signup" isLast>
+        <MenuItem to={resume} isLast>
           <button className="btn-res" style={{background:'transparent'}}>
             Resume
           </button>

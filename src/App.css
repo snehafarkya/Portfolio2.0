@@ -130,3 +130,13 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
    opacity : 1;
    transition-delay: 0.2s;
 }
+/* footer */
+.social{
+  border-color: rgba(255, 255, 255, 0.55);
+}
+.social:hover{
+  border-color: white;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.06);
+  box-shadow: 2px 5px 20px rgba(128, 128, 128, 0.322);
+}
