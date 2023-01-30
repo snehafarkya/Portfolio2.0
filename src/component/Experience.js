@@ -36,7 +36,8 @@ export default function Experience() {
     fontFamily='Orbitron'
     letterSpacing='1px'
     color='white'
-    marginTop='10'
+    marginTop='10' 
+    className='p-4 md:mt-16'
   >
     Experience
   </Heading>
