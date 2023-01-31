@@ -4,11 +4,11 @@ const Card = ({ item }) => {
   return (
     <>
       <div className="">
-        <div className="grid grid-cols-1 place-items-center md:grid-cols-3  gap-10">
+        <div className="grid grid-cols-1 place-items-center md:grid-cols-3 m-auto gap-10">
           {item.map((Val) => {
             return (
-              <div class="blogcard max-w-sm rounded overflow-hidden shadow-lg bg-purple-400 m-auto h-full ">
-                <img class="w-full h-56" src={Val.image} alt="Sunset in the mountains"></img>
+              <div class="blogcard md:max-w-sm max-w-xs rounded overflow-hidden shadow-lg bg-purple-400 m-auto h-full ">
+                <img class="w-full h-56" src={Val.image} alt={Val.title}></img>
                 <div class="px-6 py-4">
                   <div class="font-bold text-xl mb-2">{Val.title}</div>
                   <p class="text-gray-700 text-base">
