@@ -14,9 +14,7 @@ export default function Work() {
             <div class="content">
               <h3 className="con-head">{item.title}</h3>
               <p className="text-sm font-semibold text-left py-2">
-                DIn publishing and graphic design, Lorem ipsum is a placeholder
-                text commonly used to demonstrate the visual form of a document
-                or a typeface without relying on meaningful content.
+                {item.desc}
               </p>
               <button className="github-btn mb-3 p-2 rounded-md text-sm text-white bg-blue-700" ><a href={item.link}>View it on Github</a></button>
               {item.tags.map((tags)=>{
