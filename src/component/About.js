@@ -39,22 +39,15 @@ export default function About() {
             </Heading>
 
             <Text py="4" letterSpacing="1px">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
-              doloribus molestias minus maiores laborum aspernatur placeat, quis
-              assumenda. Amet, eos.
+              Great to see you here! I am Sneha Farkya, a final year student pursuing BCA from Medi-Caps University, Indore. I am a Frontend Developer and Technical Writer. 
               <br />
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-              sapiente blanditiis minima quaerat ad officia quo molestiae?
-              Ipsam, distinctio optio. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Consequatur, nobis.
+              In my role as a Front-end developer, I combine technical expertise with creativity. My passion for designing and developing user-friendly web applications has lead me to sharpen my skills in HTML, CSS, and JavaScript to provide dynamic, responsive user interfaces.
               <br />
               <br />
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi
-              sapiente blanditiis minima quaerat ad officia quo molestiae?
-              Ipsam, distinctio optio. Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Consequatur, nobis.
+              I have participated in several hackathons and built several projects, demonstrating my ability to write concise and clean code, and document the project Recently, I participated in the SheBuilds hackathon and got a special mention by organizers.
               <br />
+              
              </Text>
           </CardBody>
 
@@ -64,7 +57,7 @@ export default function About() {
               className="btn-res "
               style={{ marginTop: "-25px" }}
             >
-              Buy Latte
+              <a href="mailto:snhafarkya@gmail.com">Hire Me</a>
             </button>
           </CardFooter>
         </Stack>

@@ -38,10 +38,7 @@ export default function Hero() {
           </CardHeader>
           <CardBody>
             <Text color="white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              officia cupiditate modi cum necessitatibus aspernatur commodi quod
-              quos consequuntur, id tempore sit ipsam animi beatae debitis amet
-              dolores eveniet dolorum.
+            Hey, Namaste, Konnichiwa! I am Sneha from Indore, India. I have and 1.5+ years of experience developing beautiful User-friendly Digital Experiences that makes sense.  
             </Text>
           </CardBody>
           <CardFooter>
