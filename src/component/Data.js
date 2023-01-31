@@ -1,33 +1,128 @@
+import meta from '../assets/blogsimage/meta.png'
+import petra from '../assets/blogsimage/petra.png'
+import menstrual from '../assets/blogsimage/menstrual.png'
+import linkedin from '../assets/blogsimage/linkedin.png'
+import love from '../assets/blogsimage/love.png'
+import cloud1 from '../assets/blogsimage/cloud1.png'
+import cloud2 from '../assets/blogsimage/cloud2.png'
+import aws1 from '../assets/blogsimage/aws1.jpg'
+import aws2 from '../assets/blogsimage/aws2.webp'
+import insta from '../assets/blogsimage/insta.webp'
+
+
+
 const Data = [
   {
     id:'1',
-    title:'Google Compute Engine',
-    category:'GCP',
-    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,'
+    image:aws2,
+    title:'Here is the AWS Revenue 2022',
+    category:'Technical',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:''
   },
   {
     id:'2',
-    title:'AWS',
-    category:'AWS',
-    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,'
+    image:aws1,
+    title:'Top AWS Customers you should know',
+    category:'Technical',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:'https://docs.google.com/document/d/1UL8r0HgBvsMQbnA_6dRozD0kGuY0K6i76FB61TvyCEk/edit?usp=sharing'
   },
   {
     id:'3',
-    title:'jv',
-    category:'GCP',
-    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,'
+    image:cloud1,
+    title:'Different ways to get AWS credits',
+    category:'Technical',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:''
   },
   {
     id:'4',
-    title:'Travel Jordan',
-    category:'Travel',
-    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,'
+    image:cloud1,
+    title:'Google Cloud Revenue 2022',
+    category:'Technical',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:'https://docs.google.com/document/d/15dCHYIrvzACtLXp16cVlldBVbCOlMYJO-TyM0TMTpbk/edit?usp=sharing'
   },
   {
     id:'5',
-    title:'Google Compute Engine',
-    category:'GCP',
-    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,'
+    image:cloud2,
+    title:'Google Kubernetes Engine Pricing',
+    category:'Technical',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:'https://docs.google.com/document/d/1jozpv1U2Y8EY6ZSNTNoR4cTbj1baRuPJYFhQiFaebcM/edit?usp=sharing'
+  },
+  {
+    id:'6',
+    image:aws2,
+    title:'Different ways to get AWS credits',
+    category:'Technical',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:''
+  },
+  {
+    id:'7',
+    image:petra,
+    title:'Beautiful Rose City ~ Petra',
+    category:'Travel',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:''
+  },
+  {
+    id:'8',
+    image:cloud2,
+    title:'Google Compute Engine Services',
+    category:'Technical',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:''
+  },
+  {
+    id:'9',
+    image:insta,
+    title:'How to build brand on Instagram',
+    category:'Social',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:'https://docs.google.com/document/d/1Vjke2bCMLbWKYHuIpEO3iIwt2Vmc2gVGuvD9G83XSuE/edit?usp=sharing'
+  },
+  {
+    id:'10',
+    image:linkedin,
+    title:'Mark a shine on Linkedin Profile',
+    category:'Social',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:'https://sneha-farkya.notion.site/LinkedIn-Profile-facc373a845b4725950a0fa8a90dc1fe'
+  },
+  {
+  id:'11',
+  image:meta,
+  title:'Moving Towards a Democratic World',
+  category:'Social',
+  desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+  link:'https://sneha-farkya.notion.site/sneha-farkya/Moving-towards-a-Democratic-Internet-907c32257bf2420f96768834e9ddbea4'
+},
+  {
+    id:'12',
+    image:petra,
+    title:'Sculpturous Rose city ~ Petra',
+    category:'Travel',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:'https://sneha-farkya.notion.site/sneha-farkya/Petra-A-Rose-City-4228d8ca1ead476785d327ac754629c6'
+  },
+  {
+    id:'13',
+    image:menstrual,
+    title:'Blooming into Menstrual Hygiene Day',
+    category:'Social',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:'https://sneha-farkya.notion.site/Blooming-into-Menstrual-Hygiene-Day-82f1b1013c214a9d88d1b36080541828'
+  },
+  {
+    id:'14',
+    image:love,
+    title:'Secret of a Healthy Love Life',
+    category:'Social',
+    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+    link:'https://sneha-farkya.notion.site/A-Healthy-Love-Life-55ce69049fb94edbb525652da17be34a'
   },
 ]
 export default Data
