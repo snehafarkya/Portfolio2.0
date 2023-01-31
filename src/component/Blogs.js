@@ -32,7 +32,7 @@ const Blogs = () => {
               New
             </span>
             <span class="font-semibold mr-2 text-left flex-auto">
-              Read my work as a content writer <a href="#"> here</a>
+              Read my work<a href=""> here</a>
             </span>
             <svg
               class="fill-current opacity-75 h-4 w-4"
