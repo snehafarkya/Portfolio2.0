@@ -38,7 +38,7 @@ export default function Hero() {
           </CardHeader>
           <CardBody>
             <Text color="white">
-            Hey, Namaste, Konnichiwa! I am Sneha from Indore, India. I have and 1.5+ years of experience developing beautiful User-friendly Digital Experiences that makes sense.  
+            Hey, Namaste, Konnichiwa! I am Sneha from Indore, India. I have 1.5+ years of experience developing beautiful User-friendly Digital Experiences that makes sense.  
             </Text>
           </CardBody>
           <CardFooter>
