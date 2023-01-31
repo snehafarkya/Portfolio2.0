@@ -15,7 +15,7 @@ const work = [
       {
         one:'JavaScript',
         two:'React',
-        three:'Tailwind CSS',
+        three:'CSS3',
         
       }
     ]
