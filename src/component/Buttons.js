@@ -6,7 +6,7 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
  
   return (
     <>
-      <div className="grid grid-cols-2 place-items-center md:flex md:justify-center">
+      <div className="grid grid-cols-2 pb-20 place-items-center md:flex md:justify-center">
         {menuItems.map((Val, id) => {
           return (
             <Button

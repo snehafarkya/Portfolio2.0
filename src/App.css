@@ -17,6 +17,18 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
 .nav{
   background-color: transparent;
 }
+.nav-link{
+  color: rgba(255, 255, 255, 0.696);
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: white;
+  transform: scale(1.06);
+  filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
+  /* transition: 0.2s ease-in ease-out; */
+  font-weight: bold;
+  text-decoration: none;
+}
 .btn-prim,.btn-res{
   color: white;
   opacity:80%;
@@ -30,13 +42,8 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
         position: relative;
 }
 
-.btn-prim:hover,.exp-card:hover{
-  transform:scale(1.04);
-  transition: all 0.3s ease-in-out;
-  border-color: #A902B1;
-  box-shadow: -12px -12px 40px rgba(65, 60, 243, 0.4), 12px 12px 70px rgba(173, 1, 179, 0.35);
-}
-.btn-res:hover, .github-btn:hover{
+
+ .github-btn:hover{
   transform:scale(1.04);
   transition: all 0.3s ease-in-out;
   border-color: white;
@@ -54,8 +61,18 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
 .exp-card{
   border: 2px rgba(255, 255, 255, 0.66) solid;
   border-radius: 0px 0px 30px 0px;
+  width: 60%;
 }
-
+.exp-card:hover{
+  transform:scale(1.04);
+  transition: all 0.3s ease-in-out;
+  border-color: #A902B1;
+  box-shadow: -12px -12px 40px rgba(65, 60, 243, 0.4), 12px 12px 70px rgba(173, 1, 179, 0.35);
+}
+.exp-card input:focus,.exp-card textarea:focus{
+  outline: none;
+  border-color: #37126D;
+}
 /* WORK CSS */
 .containerr {
   position : relative;
@@ -136,8 +153,9 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
 .social{
   border-color: rgba(255, 255, 255, 0.55);
 }
-.social:hover{
+.social:hover, .btn-prim:hover,.btn-res:hover{
   border-color: white;
+  color: white;
   transition: all 0.3s ease-in-out;
   transform: scale(1.06);
   box-shadow: 2px 5px 20px rgba(128, 128, 128, 0.322);
@@ -155,17 +173,11 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
   padding: 10px 10px;
   border-radius: 12px;
 }
-/* filter buttons */
-.filterBtn:hover{
-  filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));
-  background-color: white;
-  /* transition: all 0.3s ease-in-out; */
-}
+
 .searchbtn:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 transition: all 0.4s ease-in-out;
 transform: scale(1.09);
-background: yellow;
 color: #0F1755;
 }
 .moreWorkLink:hover{
