@@ -13,7 +13,7 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
               background='#37126D'
               letterSpacing='1px'
               marginBottom='1.5em'
-              className="filterBtn text-white p-1 px-2 mx-5 btn fw-bold"
+              className="searchbtn text-white p-1 px-2 mx-5 btn fw-bold"
               onClick={() => filterItem(Val)}
               key={id}
             >
@@ -25,7 +25,7 @@ const Buttons = ({ filterItem, setItem, menuItems }) => {
         background='#37126D'
         letterSpacing='1px'
         marginBottom='1.5em'
-          className="filterBtn text-white p-1 px-3 mx-5 fw-bold btn"
+          className="searchbtn text-white p-1 px-3 mx-5 fw-bold btn"
           onClick={() => setItem(Data)}
         >
           All

@@ -41,7 +41,7 @@ export default function Experience() {
   >
     Experience
   </Heading>
-  <div className='text-left justify-center place-items-center grid grid-cols-1 my-20'>
+  <div className='text-left justify-center place-items-center grid grid-cols-1 my-20 mt-40'>
       {data}
     </div>
     </>

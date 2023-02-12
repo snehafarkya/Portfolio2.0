@@ -4,7 +4,7 @@ import menstrual from '../assets/blogsimage/menstrual.png'
 import linkedin from '../assets/blogsimage/linkedin.png'
 import love from '../assets/blogsimage/love.png'
 import cloud1 from '../assets/blogsimage/cloud1.png'
-import cloud2 from '../assets/blogsimage/cloud2.png'
+import cloud2 from '../assets/blogsimage/cloud2.jpg'
 import aws1 from '../assets/blogsimage/aws1.jpg'
 import aws2 from '../assets/blogsimage/aws2.webp'
 import insta from '../assets/blogsimage/insta.webp'
@@ -15,7 +15,7 @@ const Data = [
   {
     id:'1',
     image:aws2,
-    title:'Here is the AWS Revenue 2022',
+    title:'AWS Dominates the Cloud: A Look at AWS Revenue in 2022',
     category:'Technical',
     desc:'back to 2002, an initial beta release of AWS took place. It provided SOAP.....',
     link:'https://docs.google.com/document/d/1LCBuXMgaw-c3NnyPJFl2HMIqnz_Hy5FbSVeNBDIIw1M/edit?usp=sharing'
@@ -39,7 +39,7 @@ const Data = [
   {
     id:'4',
     image:cloud1,
-    title:'Google Cloud Revenue 2022',
+    title:'A Rise in the Clouds: Analyzing Google Cloud Revenue',
     category:'Technical',
     desc:'Five years ago, Google entered the market of Cloud Computing. It started providing...',
     link:'https://docs.google.com/document/d/15dCHYIrvzACtLXp16cVlldBVbCOlMYJO-TyM0TMTpbk/edit?usp=sharing'
@@ -49,7 +49,7 @@ const Data = [
     image:cloud2,
     title:'Google Kubernetes Engine Pricing',
     category:'Technical',
-    desc:'Kubernetes, also known as K8s, is an open-source platform to deploy,...',
+    desc:'Kubernetes, also known as K8s, is an open-source platform to deploy, scale and manage...',
     link:'https://docs.google.com/document/d/1jozpv1U2Y8EY6ZSNTNoR4cTbj1baRuPJYFhQiFaebcM/edit?usp=sharing'
   },
   {
@@ -103,7 +103,7 @@ const Data = [
   {
     id:'12',
     image:petra,
-    title:'Sculpturous Rose city ~ Petra',
+    title:'The Rose-Tinted Beauty of Petra: Exploring the Sculpturous Rose City',
     category:'Travel',
     desc:'It might sound like a city full of roses, right? Read the full article to......',
     link:'https://sneha-farkya.notion.site/sneha-farkya/Petra-A-Rose-City-4228d8ca1ead476785d327ac754629c6'
@@ -119,7 +119,7 @@ const Data = [
   {
     id:'14',
     image:love,
-    title:'Secret of a Healthy Love Life',
+    title:'Nourish Your Love: The Secret to a Thriving Relationship',
     category:'Social',
     desc:'Love has many forms around us be it a Mother-children love, friends love, or a....',
     link:'https://sneha-farkya.notion.site/A-Healthy-Love-Life-55ce69049fb94edbb525652da17be34a'

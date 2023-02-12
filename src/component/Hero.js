@@ -26,7 +26,7 @@ export default function Hero() {
       <div className="hero-content order-last md:order-first">
         <Card w={{md:'xl'}} m="auto" background="transparent" className="w-lg ">
           <CardHeader>
-            <Heading as="h2" size="2xl" color="white" fontWeight="bold">
+            <Heading as="h2" size="xl" color="white" fontWeight="bold" fontFamily={"Orbitron,sans-serif"}>
               {" "}
               I'm Sneha Farkya,
               <span style={{ color: "#FE74FF", fontWeight: "bold" }}>
@@ -37,7 +37,7 @@ export default function Hero() {
             </Heading>
           </CardHeader>
           <CardBody>
-            <Text color="white">
+            <Text color="white" >
             Hey, Namaste, Konnichiwa! I am Sneha from Indore, India. I have 1.5+ years of experience developing beautiful User-friendly Digital Experiences that makes sense.  
             </Text>
           </CardBody>
