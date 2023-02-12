@@ -12,7 +12,7 @@ export default function Contact() {
         fontFamily="Orbitron"
         letterSpacing="1px"
         color="white"
-        className="md:mx-28 mt-28"
+        className="md:mx-28 mx-16 mt-28"
         // marginTop="10"
         // className="p-4 md:mt-16 md:ml-8"
       >
@@ -20,7 +20,7 @@ export default function Contact() {
       </Heading>
       <div className="grid grid-cols-1 place-items-center md:grid-cols-2 h-full ">
         <img src={contact} alt="" />
-        <div class="exp-card block p-6 rounded-lg shadow-lg bg-white max-w-md m-4">
+        <div class="exp-card block p-6 rounded-lg shadow-lg bg-white w-md md:w-3/5 m-4">
           <form >
             <div class="form-group mb-6  ">
               <input

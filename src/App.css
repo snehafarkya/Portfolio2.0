@@ -61,7 +61,7 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
 .exp-card{
   border: 2px rgba(255, 255, 255, 0.66) solid;
   border-radius: 0px 0px 30px 0px;
-  width: 60%;
+  /* width: 60%; */
 }
 .exp-card:hover{
   transform:scale(1.04);
