@@ -12,7 +12,7 @@ export default function Contact() {
         fontFamily="Orbitron"
         letterSpacing="1px"
         color="white"
-        className="md:mx-28 mx-16 mt-28"
+        className="md:mx-28 mx-6 mt-28"
         // marginTop="10"
         // className="p-4 md:mt-16 md:ml-8"
       >
