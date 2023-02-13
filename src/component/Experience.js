@@ -13,8 +13,8 @@ export default function Experience() {
       </div>
       <div class="exp-card block p-6 rounded-xl shadow-lg bg-gray-100 md:max-w-lg max-w-xs ml-6 mb-10 " >
         <div class="grid grid-cols-1 justify-between mb-4">
-          <a href="#!" class="font-bold text-purple-700  hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-md" style={{color:'#BA00BB'}}>{item.title}</a>
-          <a href="#!" class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">{item.timeLine}</a>
+          <p class="font-bold text-purple-700  hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-md" style={{color:'#BA00BB'}}>{item.title}</p>
+          <p class="font-medium text-purple-600 hover:text-purple-700 focus:text-purple-800 duration-300 transition ease-in-out text-sm">{item.timeLine}</p>
         </div>
         <p class="text-gray-700 mb-6">{item.desc}</p>
 

@@ -2,7 +2,7 @@ const exp = [
   {
     title:'Economize.cloud',
     timeLine:'August 2022-November 2022',
-    desc: 'At Economize, I developed my inter personal skills. I worked closely with co-founder and built strong time management skills'
+    desc: 'At Economize, I wrote technical blogs and developed my inter personal skills. I worked closely with co-founder and built strong time management skills'
   },
   {
     title:'The Bug Community',
