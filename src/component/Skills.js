@@ -14,7 +14,7 @@ export default function Skills() {
     fontFamily='Orbitron'
     letterSpacing='1px'
     color='white'
-    className='icon'
+    // className='icon'
   >
     Skills
   </Heading>

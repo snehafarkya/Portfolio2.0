@@ -14,10 +14,10 @@ export default function Work() {
             </div>
             <div class="content">
               <h3 className="con-head font-bold">{item.title}</h3>
-              <p className="text-sm font-semibold text-left py-2">
+              <p className="text-sm text-justify font-semibold text-left py-2">
                 {item.desc}
               </p>
-              <button className="github-btn mb-3 p-2 rounded-md text-sm text-white bg-blue-700">
+              <button className="github-btn my-5 mb-6 p-2 rounded-md text-sm text-white bg-blue-700">
                 <a href={item.link}>View it on Github</a>
               </button>
               {item.tags.map((tags) => {

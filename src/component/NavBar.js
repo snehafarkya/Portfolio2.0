@@ -1,6 +1,13 @@
 import React from "react";
-import { Link, Box, Flex, Text, Button, Stack, Heading } from "@chakra-ui/react";
-import resume from '../assets/resume.pdf'
+import {
+  Link,
+  Box,
+  Flex,
+  Text,
+  Button,
+  Stack,
+  Heading,
+} from "@chakra-ui/react";
 // import { ReactComponent as Logo } from "../crown.svg";
 // import Logo from '../logo.svg'
 
@@ -10,8 +17,10 @@ const NavBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavBarContainer {...props}   background='none'>
-       <h1 style={{color:'white',fontWeight:'bold',letterSpacing:'2px'}} >Sneha Farkya</h1>
+    <NavBarContainer {...props} background="green">
+      <h1 style={{ color: "white", fontWeight: "bold", letterSpacing: "2px" }}>
+        Sneha Farkya
+      </h1>
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
     </NavBarContainer>
@@ -71,19 +80,38 @@ const MenuLinks = ({ isOpen }) => {
         justify={["center", "space-between", "flex-end", "flex-end"]}
         direction={["column", "row", "row", "row"]}
         pt={[4, 4, 0, 0]}
-        color='white'
+        color="white"
       >
-        <MenuItem to="/" className='nav-link' >Home</MenuItem>
-        <MenuItem to="/about" className='nav-link' > About Me</MenuItem>
-        <MenuItem to="/blogs" className='nav-link' > Blogs </MenuItem>
-        <MenuItem to="/work" className='nav-link' > Work </MenuItem>
-        <MenuItem to="/contact" className='nav-link' > Contact </MenuItem>
+        <MenuItem to="/" className="nav-link">
+          Home
+        </MenuItem>
+        <MenuItem to="/about" className="nav-link">
+          {" "}
+          About Me
+        </MenuItem>
+        <MenuItem to="/blogs" className="nav-link">
+          {" "}
+          Blogs{" "}
+        </MenuItem>
+        <MenuItem to="/work" className="nav-link">
+          {" "}
+          Work{" "}
+        </MenuItem>
+        <MenuItem to="/contact" className="nav-link">
+          {" "}
+          Contact{" "}
+        </MenuItem>
 
         {/* <MenuItem to="/pricing"> Contact Me </MenuItem> */}
-        <MenuItem to={resume} isLast>
-          <button className="btn-res" style={{background:'transparent'}}>
-            Resume
-          </button>
+        <MenuItem isLast>
+          <a
+            href="https://drive.google.com/drive/folders/1oF7zEMqOOv109R2ECOahu0zUh8-ATmN1?usp=sharing"
+            target={"_blank"}
+          >
+            <button className="btn-res" style={{ background: "transparent" }}>
+              Resume
+            </button>
+          </a>
         </MenuItem>
       </Stack>
     </Box>
