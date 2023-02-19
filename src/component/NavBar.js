@@ -17,7 +17,7 @@ const NavBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavBarContainer {...props} background="green">
+    <NavBarContainer {...props} background="transparent">
       <h1 style={{ color: "white", fontWeight: "bold", letterSpacing: "2px" }}>
         Sneha Farkya
       </h1>
