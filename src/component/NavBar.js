@@ -17,7 +17,7 @@ const NavBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavBarContainer {...props} background="transparent">
+    <NavBarContainer {...props} background="white">
       <h1 style={{ color: "white", fontWeight: "bold", letterSpacing: "2px" }}>
         Sneha Farkya
       </h1>
@@ -103,7 +103,7 @@ const MenuLinks = ({ isOpen }) => {
         </MenuItem>
 
         {/* <MenuItem to="/pricing"> Contact Me </MenuItem> */}
-        <MenuItem isLast>
+        <MenuItem isLast >
           <a
             href="https://drive.google.com/drive/folders/1oF7zEMqOOv109R2ECOahu0zUh8-ATmN1?usp=sharing"
             target={"_blank"}
@@ -128,7 +128,7 @@ const NavBarContainer = ({ children, ...props }) => {
       w="100%"
       mb={8}
       p={8}
-      bg={["primary.500", "primary.500", "transparent", "transparent"]}
+      bg={["transparent", "transparent", "transparent", "transparent"]}
       color={["white", "white", "primary.700", "primary.700"]}
       {...props}
     >
