@@ -10,8 +10,14 @@ import {
   Container,
 } from "@chakra-ui/react";
 import hero from "../assets/heroimg.png";
+import { Helmet } from "react-helmet-async";
 export default function Hero() {
   return (
+ <> <Helmet>
+    <title>Home page</title>
+    <meta name="description" content="This is the home page of my portfolio" />
+    <link rel="canonical" href="/" />
+ </Helmet>
     <div
       className="herosec grid grid-cols-1 md:grid-cols-2 md:gap-10 place-items-center "
       // style={{
@@ -52,5 +58,6 @@ export default function Hero() {
         <img src={hero} alt="" />
       </div>
     </div>
+    </>
   );
 }

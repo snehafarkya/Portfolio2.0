@@ -1,10 +1,17 @@
 import React from "react";
 import work from "./WorkInfo";
 import { Heading } from "@chakra-ui/react";
+import { Helmet } from "react-helmet-async";
+
 export default function Work() {
   const workData = work.map((item) => {
     return (
-      <>
+      
+      <><Helmet>
+    <title>Work page</title>
+    <meta name="description" content="This is the work page of my portfolio. As a frontend developer, this page contains my work." />
+    <link rel="canonical" href="/work" />
+ </Helmet>
         <div class="containerr">
           <div class="card">
             <div class="image">

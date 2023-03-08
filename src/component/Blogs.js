@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Data from "./Data";
 import Card from "./Card";
 import Buttons from "./Buttons";
-
+import { Helmet } from "react-helmet-async";
 const Blogs = () => {
   const [item, setItem] = useState(Data);
 
@@ -15,7 +15,12 @@ const Blogs = () => {
     setItem(newItem);
   };
   return (
-    <>
+    
+    <><Helmet>
+    <title>Blogs page</title>
+    <meta name="description" content="This is the blogs page of my portfolio. I am a technical writer and I write about tech and travel." />
+    <link rel="canonical" href="/blogs" />
+ </Helmet>
       <div className="bg-screen">
         <Buttons
           filterItem={filterItem}

@@ -12,8 +12,15 @@ import {
 import myImg from "../assets/myImg.jpeg";
 import Skills from "./Skills";
 import Experience from "./Experience";
+import { Helmet } from "react-helmet-async"; 
+
 export default function About() {
   return (
+    <><Helmet>
+    <title>About page</title>
+    <meta name="description" content="This is the about page of my portfolio. It contains the information about me, the skills I have and the experience of my work." />
+    <link rel="canonical" href="/about" />
+ </Helmet>
     <div className="w-xl  md:mx-28 ">
       <section className="bg-section">
       <Card
@@ -76,5 +83,6 @@ export default function About() {
       <Skills/>
       <Experience/>
     </div>
+    </>
   );
 }

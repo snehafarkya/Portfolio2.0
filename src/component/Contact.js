@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import contact from "../assets/contact.png";
 import { Heading } from "@chakra-ui/react";
-
+import { Helmet } from "react-helmet-async";
 const Contact = () => {
   const form = useRef();
 
@@ -28,6 +28,11 @@ const Contact = () => {
 
   return (
     <>
+    <Helmet>
+    <title>Contact page</title>
+    <meta name="description" content="This is the contact page of my portfolio. You can write an email to me and I will respond it." />
+    <link rel="canonical" href="/contact" />
+ </Helmet>
       <Heading
         size="lg"
         as="h2"
