@@ -14,8 +14,8 @@ import { Helmet } from "react-helmet-async";
 export default function Hero() {
   return (
  <> <Helmet>
-    <title>Home page</title>
-    <meta name="description" content="This is the home page of my portfolio" />
+    <title>Sneha Farkya Portfolio</title>
+    <meta name="description" content="This is the home page of my portfolio. It contains my designation and all the other internal links to my portfolio." />
     <link rel="canonical" href="/" />
  </Helmet>
     <div
