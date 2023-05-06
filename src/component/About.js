@@ -78,6 +78,7 @@ export default function About() {
           width="400px"
           paddingX="16px"
           borderRadius="6px"
+          justifyContent={{sm:"center"}}
           // border='1px'
         />
       </Card>
