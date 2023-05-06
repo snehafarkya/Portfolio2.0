@@ -46,10 +46,10 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
 
 @keyframes shake {
   0% {
-    transform: skewY(5deg);
+    transform: skewY(1deg);
   }
   100% {
-    transform: skewY(-5deg);
+    transform: skewY(-1deg);
   }
 }
 
