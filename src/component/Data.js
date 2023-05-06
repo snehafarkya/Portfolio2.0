@@ -90,7 +90,7 @@ const Data = [
     title:'Mark a shine on Linkedin Profile',
     category:'Social',
     desc:'Before moving to the LinkedIn profile discussion, let’s start from the beginning!',
-    link:'https://sneha-farkya.notion.site/LinkedIn-Profile-facc373a845b4725950a0fa8a90dc1fe'
+    link:'https://snehafarkya.hashnode.dev/how-to-get-started-with-linkedin-profile'
   },
   {
   id:'11',
@@ -98,7 +98,7 @@ const Data = [
   title:'Moving Towards a Democratic World',
   category:'Social',
   desc:'The Internet is getting fast and we are getting trapped! In the modern era,...',
-  link:'https://sneha-farkya.notion.site/sneha-farkya/Moving-towards-a-Democratic-Internet-907c32257bf2420f96768834e9ddbea4'
+  link:'https://snehafarkya.hashnode.dev/moving-towards-a-democratic-internet'
 },
   {
     id:'12',

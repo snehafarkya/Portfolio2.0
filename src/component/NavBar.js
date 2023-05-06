@@ -59,7 +59,8 @@ const MenuToggle = ({ toggle, isOpen }) => {
 
 const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
   return (
-    <Link href={to}>
+    <Link href={to}  _hover={{
+      textDecoration: 'none',}}>
       <Text display="block" {...rest}>
         {children}
       </Text>

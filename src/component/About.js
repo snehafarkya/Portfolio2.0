@@ -73,10 +73,12 @@ export default function About() {
           // maxW={{ base: '100%', sm: '200px' }}
           src={myImg}
           marginTop="4"
-          alt="Caffe Latte"
+          alt="Sneha Farkya"
           height="400px"
           width="400px"
-          paddingX="16px"
+          marginX="16px"
+          borderRadius="6px"
+          // border='1px'
         />
       </Card>
       </section>
