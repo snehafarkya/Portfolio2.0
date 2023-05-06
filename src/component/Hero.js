@@ -54,7 +54,7 @@ export default function Hero() {
           </CardFooter>
         </Card>
       </div>
-      <div className="hero-img">
+      <div className="hero-img imageee">
         <img src={hero} alt="" />
       </div>
     </div>

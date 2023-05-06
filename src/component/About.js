@@ -68,7 +68,7 @@ export default function About() {
             </button>
           </CardFooter>
         </Stack>
-        <Image
+        <Image 
           objectFit="cover"
           // maxW={{ base: '100%', sm: '200px' }}
           src={myImg}
