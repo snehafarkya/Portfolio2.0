@@ -32,8 +32,8 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
   font-weight: bold;
   /* background-image: linear-gradient(45deg, #36126dcd 60%, #A902B1 40%); */
   border-radius: 4px;
-  transition: 0.1s all ease-out;
-  transform: rotate3d(0,0,1,2deg);
+  transition: 0.2s all ease-out;
+  /* transform: rotate3d(0,0,1,2deg); */
 /* background-color: #A902B1; */
 }
 .imageee {
