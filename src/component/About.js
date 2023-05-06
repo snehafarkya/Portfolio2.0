@@ -76,7 +76,7 @@ export default function About() {
           alt="Sneha Farkya"
           height="400px"
           width="400px"
-          padingX="16px"
+          paddingX="16px"
           borderRadius="6px"
           // border='1px'
         />

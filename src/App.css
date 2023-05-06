@@ -93,7 +93,7 @@ background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A90
   display : flex;
   align-items : center;
   justify-content : center;
-  flex-warp : warp;
+  flex-wrap: wrap;
   padding : 30px;  
   color: #0F1755;
 }
