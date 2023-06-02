@@ -30,7 +30,7 @@ export default function Hero() {
                 </svg>
                 <span class="sr-only">Light bulb</span>
             </span>
-            <span>Actively looking for <p class="inline font-medium text-blue-600 underline dark:text-blue-300 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline hover:cursor-pointer">Frontend developer</p> and <p class="inline font-medium text-blue-600 underline dark:text-blue-300 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline hover:cursor-pointer">Technical writer</p> role. </span>
+            <span>Actively looking for <p class="inline font-medium  underline text-blue-300 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline hover:cursor-pointer">Frontend developer</p> and <p class="inline font-medium underline text-blue-300 underline-offset-2 decoration-600 dark:decoration-500 decoration-solid hover:no-underline hover:cursor-pointer">Technical writer</p> role. </span>
         </p>
     </div>
 </div>

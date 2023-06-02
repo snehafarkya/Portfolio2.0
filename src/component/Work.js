@@ -51,7 +51,24 @@ export default function Work() {
     );
   });
   return (
-    <div>
+    <div className="md:mx-28">
+      <Heading
+              size="xl"
+              as="h2"
+              width="fit-content"
+              textAlign={{}}
+              fontFamily='Orbitron'
+              paddingBottom="4px"
+              letterSpacing='1px'
+              borderBottom="2px solid"
+              borderBottomWidth="3px"
+              textColor="white"
+              marginBottom="20px"
+              paddingX={{base:"16px",md:"4px"}}
+
+            >
+              Projects ✨
+            </Heading>
       <Heading
         as="h2"
         size="lg"

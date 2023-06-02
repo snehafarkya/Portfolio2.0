@@ -23,6 +23,23 @@ export default function About() {
  </Helmet>
     <div className="w-xl  md:mx-28 ">
       <section className="bg-section">
+      <Heading
+            size="xl"
+            as="h2"
+            width="fit-content"
+            textAlign={{}}
+            fontFamily='Orbitron'
+            paddingBottom="4px"
+            letterSpacing='1px'
+            borderBottom="2px solid"
+            borderBottomWidth="3px"
+              textColor="white"
+              paddingX={{base:"16px",md:"4px"}}
+
+
+            >
+              About Me 👩‍💻
+            </Heading>
       <Card
         className="md:flex w-xl md:gap-40 mt-16 grid gap:20 grid-rows-2 justify-center "
         direction={{ base: "column", sm: "row" }}
@@ -34,16 +51,7 @@ export default function About() {
       >
         <Stack className=" bg-transparent order-last md:order-first">
           <CardBody>
-            <Heading
-              size="lg"
-              as="h2"
-              textDecoration="underline"
-              textAlign={{}}
-              fontFamily='Orbitron'
-              letterSpacing='1px'
-            >
-              About Me
-            </Heading>
+            
 
             <Text py="4" letterSpacing="1px">
               Great to see you here! I am Sneha Farkya, a BCA graduate from Medi-Caps University, Indore. I am a Frontend Developer and Technical Writer. 

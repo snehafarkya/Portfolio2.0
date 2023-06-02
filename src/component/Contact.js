@@ -33,20 +33,23 @@ const Contact = () => {
     <meta name="description" content="This is the contact page of my portfolio. You can write an email to me and I will respond it." />
     <link rel="canonical" href="/contact" />
  </Helmet>
-      <Heading
-        size="lg"
-        as="h2"
-        textDecoration="underline"
-        textAlign={{}}
-        fontFamily="Orbitron"
-        letterSpacing="1px"
-        color="white"
-        className="md:mx-28 mx-6 mt-24"
-        // marginTop="10"
-        // className="p-4 md:mt-16 md:ml-8"
-      >
-        Contact Me
-      </Heading>
+ <Heading
+            size="xl"
+            as="h2"
+            width="fit-content"
+            textAlign={{}}
+            fontFamily='Orbitron'
+            paddingBottom="4px"
+            letterSpacing='1px'
+            borderBottom="2px solid"
+            borderBottomWidth="3px"
+            textColor="white"
+            paddingX={{base:"16px",md:"4px"}}
+            className="md:mx-28"
+
+            >
+              Contact Me 📌
+            </Heading>
       <div className="grid grid-cols-1 place-items-center md:grid-cols-2 h-full ">
         <img src={contact} alt="" />
         <div class="exp-card block p-6 rounded-lg shadow-lg bg-white w-md md:w-3/5 m-4">

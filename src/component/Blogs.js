@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Data from "./Data";
 import Card from "./Card";
 import Buttons from "./Buttons";
+import {Heading} from '@chakra-ui/react'
 import { Helmet } from "react-helmet-async";
 const Blogs = () => {
   const [item, setItem] = useState(Data);
@@ -21,7 +22,24 @@ const Blogs = () => {
     <meta name="description" content="This is the blogs page of my portfolio. I am a technical writer and I write about tech and travel." />
     <link rel="canonical" href="/blogs" />
  </Helmet>
-      <div className="bg-screen">
+      <div className="bg-screen md:mx-28">
+      <Heading
+              size="xl"
+              as="h2"
+              width="fit-content"
+              textAlign={{}}
+              fontFamily='Orbitron'
+              paddingBottom="4px"
+              letterSpacing='1px'
+              borderBottom="2px solid"
+              borderBottomWidth="3px"
+              textColor="white"
+              paddingX={{base:"16px",md:"4px"}}
+              marginBottom="20px"
+
+            >
+              Blogs 📝
+            </Heading>
         <Buttons
           filterItem={filterItem}
           setItem={setItem}
