@@ -48,7 +48,7 @@ const Blogs = () => {
         <Card item={item} />
         <div class=" text-center py-4 lg:px-4 w-max m-auto mt-20">
           <div
-            class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+            class="p-2 bg-transparent items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
             role="alert"
           >
             <span class="pl-3 font-semibold mr-2 text-gray-400 text-left flex-auto">

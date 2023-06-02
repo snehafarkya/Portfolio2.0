@@ -8,6 +8,8 @@ import cloud2 from '../assets/blogsimage/cloud2.jpg'
 import aws1 from '../assets/blogsimage/aws1.jpg'
 import aws2 from '../assets/blogsimage/aws2.webp'
 import insta from '../assets/blogsimage/insta.webp'
+import mongodb from "../assets/blogsimage/mongodb.avif"
+import nodejs from "../assets/blogsimage/nodejs.avif"
 
 
 
@@ -21,12 +23,12 @@ const Data = [
     link:'https://docs.google.com/document/d/1LCBuXMgaw-c3NnyPJFl2HMIqnz_Hy5FbSVeNBDIIw1M/edit?usp=sharing'
   },
   {
-    id:'2',
-    image:aws1,
-    title:'Top AWS Customers you should know',
+    id:'8',
+    image:nodejs,
+    title:'Node.js Events: Building Event-Driven Applications',
     category:'Technical',
-    desc:'Sometimes, it may seem as though the $120 billion cloud industry just popped....',
-    link:'https://docs.google.com/document/d/1UL8r0HgBvsMQbnA_6dRozD0kGuY0K6i76FB61TvyCEk/edit?usp=sharing'
+    desc:'Node.js is a powerful and widely used JavaScript runtime built on Chromes V8 JavaScript engine. It allows developers to build scalable',
+    link:'https://snehafarkya.hashnode.dev/nodejs-events-building-event-driven-applications'
   },
   // {
   //   id:'3',
@@ -36,6 +38,38 @@ const Data = [
   //   desc:'AWS stands for Amazon Web Services, a cloud platform offering scalable and....',
   //   link:'https://docs.google.com/document/d/15OQn6CT7sOJIIbwMzZ-qhKJV_rs5Y0NEQDiNELptlIo/edit?usp=sharing'
   // },
+  {
+    id:'8',
+    image:mongodb,
+    title:'Connecting MongoDB with Express.js: A Practical Guide',
+    category:'Technical',
+    desc:'Introduction: Integrating MongoDB, a popular NoSQL database, with Express.js, a robust web application framework',
+    link:'https://snehafarkya.hashnode.dev/connecting-mongodb-with-expressjs-a-practical-guide'
+  },
+  {
+    id:'11',
+    image:meta,
+    title:'Moving Towards a Democratic World',
+    category:'Social',
+    desc:'The Internet is getting fast and we are getting trapped! In the modern era,...',
+    link:'https://snehafarkya.hashnode.dev/moving-towards-a-democratic-internet'
+  },
+    {
+      id:'12',
+      image:petra,
+      title:'The Rose-Tinted Beauty of Petra: Exploring the Sculpturous Rose City',
+      category:'Travel',
+      desc:'It might sound like a city full of roses, right? Read the full article to......',
+      link:'https://sneha-farkya.notion.site/sneha-farkya/Petra-A-Rose-City-4228d8ca1ead476785d327ac754629c6'
+    },
+  {
+    id:'2',
+    image:aws1,
+    title:'Top AWS Customers you should know',
+    category:'Technical',
+    desc:'Sometimes, it may seem as though the $120 billion cloud industry just popped....',
+    link:'https://docs.google.com/document/d/1UL8r0HgBvsMQbnA_6dRozD0kGuY0K6i76FB61TvyCEk/edit?usp=sharing'
+  },
   {
     id:'4',
     image:cloud1,
@@ -68,14 +102,14 @@ const Data = [
   //   desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
   //   link:''
   // },
-  {
-    id:'8',
-    image:cloud2,
-    title:'Google Compute Engine Services',
-    category:'Technical',
-    desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
-    link:''
-  },
+  // {
+  //   id:'8',
+  //   image:cloud2,
+  //   title:'Google Compute Engine Services',
+  //   category:'Technical',
+  //   desc:'adkjvvvnwejhfoiq;fesfkrnmgwrlgowscms cfqelgorwg dvwroglvgrkltgfw wmvqefnqeke,',
+  //   link:''
+  // },
   {
     id:'9',
     image:insta,
@@ -92,22 +126,7 @@ const Data = [
     desc:'Before moving to the LinkedIn profile discussion, let’s start from the beginning!',
     link:'https://snehafarkya.hashnode.dev/how-to-get-started-with-linkedin-profile'
   },
-  {
-  id:'11',
-  image:meta,
-  title:'Moving Towards a Democratic World',
-  category:'Social',
-  desc:'The Internet is getting fast and we are getting trapped! In the modern era,...',
-  link:'https://snehafarkya.hashnode.dev/moving-towards-a-democratic-internet'
-},
-  {
-    id:'12',
-    image:petra,
-    title:'The Rose-Tinted Beauty of Petra: Exploring the Sculpturous Rose City',
-    category:'Travel',
-    desc:'It might sound like a city full of roses, right? Read the full article to......',
-    link:'https://sneha-farkya.notion.site/sneha-farkya/Petra-A-Rose-City-4228d8ca1ead476785d327ac754629c6'
-  },
+
   {
     id:'13',
     image:menstrual,
@@ -124,5 +143,6 @@ const Data = [
     desc:'Love has many forms around us be it a Mother-children love, friends love, or a....',
     link:'https://sneha-farkya.notion.site/A-Healthy-Love-Life-55ce69049fb94edbb525652da17be34a'
   },
+
 ]
 export default Data
