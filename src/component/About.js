@@ -46,7 +46,7 @@ export default function About() {
             </Heading>
 
             <Text py="4" letterSpacing="1px">
-              Great to see you here! I am Sneha Farkya, a final year student pursuing BCA from Medi-Caps University, Indore. I am a Frontend Developer and Technical Writer. 
+              Great to see you here! I am Sneha Farkya, a BCA graduate from Medi-Caps University, Indore. I am a Frontend Developer and Technical Writer. 
               <br />
               <br />
               In my role as a Front-end developer, I combine technical expertise with creativity. My passion for designing and developing user-friendly web applications has lead me to sharpen my skills in HTML, CSS, and JavaScript to provide dynamic, responsive user interfaces.
