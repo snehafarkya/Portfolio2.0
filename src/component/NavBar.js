@@ -108,7 +108,7 @@ const MenuLinks = ({ isOpen }) => {
         {/* <MenuItem to="/pricing"> Contact Me </MenuItem> */}
         <MenuItem isLast >
           <a
-            href="https://drive.google.com/drive/folders/1oF7zEMqOOv109R2ECOahu0zUh8-ATmN1?usp=sharing"
+            href="/"
             target={"_blank"}
           >
             <button className="btn-res" style={{ background: "transparent" }}>
