@@ -19,7 +19,9 @@ const NavBar = (props) => {
   return (
     <NavBarContainer {...props} background="transparent">
       <h1 style={{ color: "white", fontWeight: "bold", letterSpacing: "2px" }}>
+        <a href="/">
         Sneha Farkya
+        </a>
       </h1>
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
