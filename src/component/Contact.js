@@ -6,25 +6,25 @@ import { Helmet } from "react-helmet-async";
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm(
-        "service_rt2eg5b",
-        "template_o0pigqt",
-        form.current,
-        "user_m0sMh3qvjp4HeTas3kAoH"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  //   emailjs
+  //     .sendForm(
+  //       "service_rt2eg5b",
+  //       "template_o0pigqt",
+  //       form.current,
+  //       "user_m0sMh3qvjp4HeTas3kAoH"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
 
   return (
     <>
@@ -53,7 +53,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 place-items-center md:grid-cols-2 h-full ">
         <img src={contact} alt="" />
         <div class="exp-card block p-6 rounded-lg shadow-lg bg-white w-md md:w-3/5 m-4">
-          <form ref={form} onSubmit={sendEmail}>
+          <form ref={form} >
             <div class="form-group mb-6  ">
               <input
                 type="text"
