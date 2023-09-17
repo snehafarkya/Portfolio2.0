@@ -46,7 +46,7 @@ export default function Newexp() {
 
             <div class="mb-8 flex justify-between flex-row-reverse  items-center w-full right-timeline">
               <div class="order-1 w-5/12"></div>
-              <div class="order-1  w-[48%] md:w-5/12 px-1 py-4 text-right">
+              <div class="order-1  w-[47%] md:w-5/12 px-1 py-4 text-right">
                 <p class="mb-3 text-base text-yellow-300">March 2023-April 2023</p>
                 <h4 class="mb-3 font-bold text-lg md:text-2xl">GoSchedule</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
@@ -56,7 +56,7 @@ export default function Newexp() {
             </div>
             <div class="mb-8 flex justify-between items-center w-full left-timeline">
               <div class="order-1 w-5/12"></div>
-              <div class="order-1 w-[47%] md:w-5/12 px-1 py-4 text-left">
+              <div class="order-1 w-[48%] md:w-5/12 px-1 py-4 text-left">
                 <p class="mb-3 text-base text-yellow-300"> August 2022-November 2022</p>
                 <h4 class="mb-3 font-bold text-lg md:text-2xl">Economize</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
@@ -68,7 +68,7 @@ export default function Newexp() {
             <div class="mb-8 flex justify-between flex-row-reverse  items-center w-full right-timeline">
               <div class="order-1 w-5/12"></div>
 
-              <div class="order-1 w-[48%] md:w-5/12 px-1 py-4 text-right">
+              <div class="order-1 w-[47%] md:w-5/12 px-1 py-4 text-right">
                 <p class="mb-3 text-base text-yellow-300">November 2021-February 2022</p>
                 <h4 class="mb-3 font-bold text-lg md:text-2xl ">The Bug Community</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
@@ -79,7 +79,7 @@ export default function Newexp() {
 
             <div class="mb-8 flex justify-between  items-center w-full left-timeline">
               <div class="order-1 w-5/12"></div>
-              <div class="order-1 w-[47%] md:w-5/12 px-1 py-4 text-left">
+              <div class="order-1 w-[48%] md:w-5/12 px-1 py-4 text-left">
                 <p class="mb-3 text-base text-yellow-300"> August 2021-August 2022</p>
                 <h4 class="mb-3 font-bold text-lg md:text-2xl">Medi-Caps University ACM Student Chapter</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
