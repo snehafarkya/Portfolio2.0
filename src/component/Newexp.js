@@ -7,14 +7,13 @@ export default function Newexp() {
     <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
       <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
         <p className="ml-2 text-yellow-300 uppercase tracking-loose">Experience</p>
-        <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Working Since a college Newbie</p>
+        <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Working Since 2021</p>
         <p className="text-sm md:text-base text-gray-50 mb-4">
-          Here’s your guide to the tech fest 2021 process. Go through all the steps to know the exact process of the
-          fest.
+        Nurturing Growth and Learning - My Journey of Gaining Professional Experience Since Freshman Year in College
         </p>
-        <a href="#"
-        className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent">
-        Explore Now</a>
+        <button className="btn-prim w-fit" style={{ background: "transparent" }} >
+              Explore Now
+            </button>
       </div>
       <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
         <div class="container mx-auto w-full h-full">
@@ -29,7 +28,7 @@ export default function Newexp() {
                 <p class="mb-3 text-base text-yellow-300">August 2023 - Present</p>
                 <h4 class="mb-3 font-bold text-lg md:text-2xl">QORUZ</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                As a frontend developer, I worked closely with the team on how to improve website. I have converted the figma designs into pixel perfect responsive websites 
+                As a Frontend developer, I aim to enhance user experiences and bring innovative designs to life. Collaborating with a team of talented professionals to create a seamless interface.
                 </p>
               </div>
             </div>
@@ -39,7 +38,7 @@ export default function Newexp() {
                 <p class="mb-3 text-base text-yellow-300">March 2023-April 2023</p>
                 <h4 class="mb-3 font-bold text-lg md:text-2xl">GoSchedule</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                As a frontend developer, I worked closely with the team on how to improve website. I have converted the figma designs into pixel perfect responsive websites.
+                As a freelancer, .
                 </p>
               </div>
             </div>
@@ -78,7 +77,7 @@ export default function Newexp() {
             </div>
 
           </div>
-          <img class="mx-auto -mt-36 md:-mt-24" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
+          <img class="mx-auto md:-mt-20" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
         </div>
       </div>
     </div>
