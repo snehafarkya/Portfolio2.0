@@ -32,19 +32,31 @@ export default function Newexp() {
                 </p>
               </div>
             </div>
+
             <div class="mb-8 flex justify-between items-center w-full left-timeline">
               <div class="order-1 w-5/12"></div>
               <div class="order-1  w-[48%] md:w-5/12 px-1 py-4 text-left">
-                <p class="mb-3 text-base text-yellow-300">March 2023-April 2023</p>
-                <h4 class="mb-3 font-bold text-lg md:text-2xl">GoSchedule</h4>
+                <p class="mb-3 text-base text-yellow-300">June 2023-July 2023</p>
+                <h4 class="mb-3 font-bold text-lg md:text-2xl">Freelance</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                As a freelancer, .
+                As a freelancer, I have worked closely with the client to deliver satisfactory development. Got my hands on Storybook component.
                 </p>
               </div>
             </div>
-            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full right-timeline">
+
+            <div class="mb-8 flex justify-between flex-row-reverse  items-center w-full right-timeline">
               <div class="order-1 w-5/12"></div>
-              <div class="order-1 w-[47%] md:w-5/12 px-1 py-4 text-right">
+              <div class="order-1  w-[48%] md:w-5/12 px-1 py-4 text-right">
+                <p class="mb-3 text-base text-yellow-300">March 2023-April 2023</p>
+                <h4 class="mb-3 font-bold text-lg md:text-2xl">GoSchedule</h4>
+                <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                Worked remotely with the founder and senior developer in Angular js. Made dashboard component and developed the onboarding calendly like scheduler. 
+                </p>
+              </div>
+            </div>
+            <div class="mb-8 flex justify-between items-center w-full left-timeline">
+              <div class="order-1 w-5/12"></div>
+              <div class="order-1 w-[47%] md:w-5/12 px-1 py-4 text-left">
                 <p class="mb-3 text-base text-yellow-300"> August 2022-November 2022</p>
                 <h4 class="mb-3 font-bold text-lg md:text-2xl">Economize</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
@@ -53,25 +65,25 @@ export default function Newexp() {
               </div>
             </div>
 
-            <div class="mb-8 flex justify-between items-center w-full left-timeline">
+            <div class="mb-8 flex justify-between flex-row-reverse  items-center w-full right-timeline">
               <div class="order-1 w-5/12"></div>
 
-              <div class="order-1 w-[48%] md:w-5/12 px-1 py-4">
+              <div class="order-1 w-[48%] md:w-5/12 px-1 py-4 text-right">
                 <p class="mb-3 text-base text-yellow-300">November 2021-February 2022</p>
-                <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">The Bug Community</h4>
+                <h4 class="mb-3 font-bold text-lg md:text-2xl ">The Bug Community</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                TBC taught me how to deal and negotiate with clients. I worked on strict deadlines. TBC proved to be a great booster.
+                TBC taught me how to deal and negotiate with clients. I worked on strict deadlines, wrote content for clients, made videos for clients.
                 </p>
               </div>
             </div>
 
-            <div class="mb-8 flex justify-between flex-row-reverse items-center w-full right-timeline">
+            <div class="mb-8 flex justify-between  items-center w-full left-timeline">
               <div class="order-1 w-5/12"></div>
-              <div class="order-1 w-[47%] md:w-5/12 px-1 py-4 text-right">
+              <div class="order-1 w-[47%] md:w-5/12 px-1 py-4 text-left">
                 <p class="mb-3 text-base text-yellow-300"> August 2021-August 2022</p>
                 <h4 class="mb-3 font-bold text-lg md:text-2xl">Medi-Caps University ACM Student Chapter</h4>
                 <p class="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                I was the Executive member of content team in (MU-ACM). I got my hands on new experiences. I wrote descriptive emails, whatsapp and event invitations etc. 
+                I was the Executive member of content team in (MU-ACM). I got my hands on new experiences. I wrote descriptive emails, whatsapp invitation messages and event invitations etc. 
                 </p>
               </div>
             </div>
