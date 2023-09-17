@@ -8,6 +8,7 @@ import {
   Stack,
   Heading,
 } from "@chakra-ui/react";
+import logo from '../Portfoliologo (2).png'
 // import { ReactComponent as Logo } from "../crown.svg";
 // import Logo from '../logo.svg'
 
@@ -20,7 +21,7 @@ const NavBar = (props) => {
     <NavBarContainer {...props} background="transparent">
       <h1 style={{ color: "white", fontWeight: "bold", letterSpacing: "2px" }}>
         <a href="/">
-        Sneha Farkya
+        <img src={logo} alt="" className="w-max h-10 rounded-md" width={50} height={50}/>
         </a>
       </h1>
       <MenuToggle toggle={toggle} isOpen={isOpen} />

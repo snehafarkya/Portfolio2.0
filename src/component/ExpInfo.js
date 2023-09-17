@@ -1,8 +1,13 @@
 const exp = [
   {
+    title:'Qoruz',
+    timeLine:'August 2023 - Present',
+    desc: 'As a frontend developer, I worked closely with the team on how to improve website. I have converted the figma designs into pixel perfect responsive websites '
+  },
+  {
     title:'GoSchedule',
     timeLine:'March 2023-April 2023',
-    desc: 'As a frontend developer, I worked closely with the team on how to improve website. I have converted the figma designs into pixel perfect responsive websites '
+    desc: 'As a frontend developer, I worked closely with the team on how to improve website. I have converted the figma designs into pixel perfect responsive websites.'
   },
   {
     title:'Economize.cloud',

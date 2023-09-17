@@ -12,7 +12,11 @@ import {
 import myImg from "../assets/myImg.jpeg";
 import Skills from "./Skills";
 import Experience from "./Experience";
+import '../App.css'
 import { Helmet } from "react-helmet-async"; 
+import { PopupButton } from 'react-calendly';
+import Newexp from "./Newexp";
+// import Calendly from 'react-calendly'
 
 export default function About() {
   return (
@@ -20,6 +24,8 @@ export default function About() {
     <title>About page</title>
     <meta name="description" content="This is the about page of my portfolio. It contains the information about me, the skills I have and the experience of my work." />
     <link rel="canonical" href="/about" />
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet" />
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
  </Helmet>
     <div className="w-xl  md:mx-28 ">
       <section className="bg-section">
@@ -72,7 +78,21 @@ export default function About() {
               className="btn-res "
               style={{ marginTop: "-25px" }}
             >
-              <a href="mailto:snhafarkya@gmail.com">Hire Me</a>
+              {/* <a href="mailto:snhafarkya@gmail.com">Hire Me</a> */}
+              
+              {/* <!-- Calendly link widget begin --> */}
+              <PopupButton
+        url="https://calendly.com/snhafarkya/introductory-call"
+        rootElement={document.getElementById("root")}
+        text="Set up a call!"
+        pageSettings={{
+          backgroundColor: '#f2e6f2',
+          hideEventTypeDetails: false,
+          hideLandingPageDetails: false,
+          primaryColor: '#b101b6',
+          textColor: '#b101b6'
+        }}
+      />
             </button>
           </CardFooter>
         </Stack>
@@ -92,7 +112,8 @@ export default function About() {
       </Card>
       </section>
       <Skills/>
-      <Experience/>
+      {/* <Experience/> */}
+      <Newexp/>
     </div>
     </>
   );

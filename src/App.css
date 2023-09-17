@@ -213,3 +213,23 @@ color: #0F1755;
 .moreWorkLink:hover{
   text-decoration: underline;
 }
+.calendly-badge-widget{
+  position: relative;
+  border-radius: 50%;
+}
+*::-webkit-scrollbar {
+  width: 6px;
+  /* height: 6px; */
+  background-color: #af01b4;
+}
+
+*::-webkit-scrollbar-track {
+  background: #af01b4;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20px;
+  height: 4px;
+  border: 3px solid white;
+}
