@@ -11,7 +11,7 @@ export default function Newexp() {
         <p className="text-sm md:text-base text-gray-50 mb-4">
         Nurturing Growth and Learning - My Journey of Gaining Professional Experience Since Freshman Year in College
         </p>
-        <button className="btn-prim w-fit" style={{ background: "transparent" }} >
+        <button className="btn-prim w-fit" style={{ background: "transparent" , width:'fit-content'}} >
               Explore Now
             </button>
       </div>
