@@ -23,6 +23,7 @@ export default function About() {
     <>
       <Helmet>
         <title>About page</title>
+        
         <meta
           name="description"
           content="This is the about page of my portfolio. It contains the information about me, the skills I have and the experience of my work."
