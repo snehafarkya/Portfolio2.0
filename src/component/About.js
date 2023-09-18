@@ -64,7 +64,7 @@ export default function About() {
             background="transparent"
             color="white"
             shadow={"none"}
-            
+
           >
             <Stack className=" bg-transparent order-last md:order-first">
               <CardBody>
@@ -120,7 +120,7 @@ export default function About() {
               width="-moz-fit-content"
               // paddingX="16px"
               borderRadius="56px"
-              className="hover:border-white hover:border-[10px] mx-4 md:mx-0 ease-in-out border-solid hover:border-opacity-30 hover:transition hover:rounded-[44px] "
+              className="hover:border-white hover:border-[10px] mx-4 md:mx-0 hover:ease-in-out border-solid hover:border-opacity-30 hover:transition hover:rounded-[44px] hover:duration-700 "
               justifyContent={{ sm: "center" }}
               // border='1px'
             />
