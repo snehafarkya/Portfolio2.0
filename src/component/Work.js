@@ -86,7 +86,7 @@ export default function Work() {
         </span>
         these are some of my projects.
       </Heading>
-      <div className="grid md:grid-cols-3 grid-cols-1  place-items-center ">
+      <div className="grid md:grid-cols-3 grid-cols-1  ">
         {workData}
       </div>
       <div class="text-center py-4 lg:px-4 w-max m-auto mt-20">

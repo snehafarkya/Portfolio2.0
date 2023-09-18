@@ -38,8 +38,8 @@ export default function About() {
           async
         ></script>
       </Helmet>
-      <div className="w-xl  md:mx-28 ">
-        <section className="bg-section">
+      <div className="w-xl border-none md:mx-28 ">
+        {/* <section className="bg-section border-none"> */}
           <Heading
             size="xl"
             as="h2"
@@ -56,20 +56,22 @@ export default function About() {
             About Me 👩‍💻
           </Heading>
           <Card
-            className="md:flex w-xl md:gap-40 mt-16 grid gap:20 grid-rows-2 justify-center "
+            className="md:flex w-xl md:gap-40 mt-16 grid gap:20 grid-rows-2 justify-center border-none"
             direction={{ base: "column", sm: "row" }}
             overflow="hidden"
             // variant='outline'
             border="none"
             background="transparent"
             color="white"
+            shadow={"none"}
+            
           >
             <Stack className=" bg-transparent order-last md:order-first">
               <CardBody>
                 <Text py="4" letterSpacing="1px">
                   Great to see you here! I am Sneha Farkya, a BCA graduate from
                   Medi-Caps University, Indore. I am a Frontend Developer and
-                  Technical Writer.
+                  Technical Writer. 
                   <br />
                   <br />
                   In my role as a Front-end developer, I combine technical
@@ -118,12 +120,12 @@ export default function About() {
               width="-moz-fit-content"
               // paddingX="16px"
               borderRadius="56px"
-              className="hover:border-white hover:border-[10px] mx-4 md:mx-0 border-solid hover:border-opacity-30 hover:rounded-[44px] "
+              className="hover:border-white hover:border-[10px] mx-4 md:mx-0 ease-in-out border-solid hover:border-opacity-30 hover:transition hover:rounded-[44px] "
               justifyContent={{ sm: "center" }}
               // border='1px'
             />
           </Card>
-        </section>
+        {/* </section> */}
         <Skills />
         {/* <Experience/> */}
         <Newexp />

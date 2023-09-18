@@ -30,7 +30,7 @@ export default function Hero() {
       // }}
     >
       <div className="hero-content order-last md:order-first">
-        <Card w={{md:'xl'}} m="auto" background="transparent" className="w-lg ">
+        <Card w={{md:'xl'}} m="auto" background="transparent" border={"none"} shadow={"none"} className="w-lg shadow-none border-none">
           <CardHeader>
             <Heading as="h2" size="xl" color="white" fontWeight="bold" fontFamily={"Orbitron,sans-serif"}>
               {" "}
