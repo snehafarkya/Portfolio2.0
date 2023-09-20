@@ -8,7 +8,7 @@
 /* height: 100vh; */
 
 /* letter-spacing: 1px; */
-background-size: cover;
+background-size: 100%;
 /* font-family: 'Orbitron', sans-serif; */
 font-family: 'Poppins', sans-serif;
 background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A902B1 13.52%, #670B8A 35.32%, #37126D 54.77%, #1A165C 87.76%, #0F1755 106.27%);;

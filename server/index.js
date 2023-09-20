@@ -14,19 +14,21 @@ console.log('Connected to Portfolio-data database'));
 
 const port = process.env.PORT || 4000;
 
-app.get('/', (req, res) => {
-  res.send('<h1>Hello World</h1>');
-})
+// app.get('/', (req, res) => {
+//   res.send('<h1>Hello World</h1>');
+// })
 
-app.get('/:name', (req, res) => {
-  res.send(`<h1>Welcome to ${req.params.name}!</h1>`);
-});
+// app.get('/:name', (req, res) => {
+//   res.send(`<h1>Welcome to ${req.params.name}!</h1>`);
+// });
 
-app.post('/insert', async(req, res) => {
+app.post('/inse', async(req, res) => {
   const FirstName = req.body.fullName
   const CompanyRole = req.body.email
   const Location = req.body.location
   const Messagee = req.body.msg
+
+  console.log(FirstName, CompanyRole)
 
   const formData = new User({
       nameS: FirstName,
