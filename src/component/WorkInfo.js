@@ -4,6 +4,8 @@ import apnaproduct from '../assets/apnaproduct.png'
 import shreeram from '../assets/shreeram.png'
 import wonders from '../assets/wonders.png'
 import todo from '../assets/todo.png'
+import github from '../assets/github.png'
+
 
 const work = [
   {
@@ -71,6 +73,48 @@ const work = [
       {
         one:'JavaScript',
         two:'React',
+        three:'CSS3',
+        
+      }
+    ]
+  },
+  {
+    image:todo,
+    title:'To-do app',
+    link:'https://github.com/snehafarkya/Todo-list',
+    desc:'The todo application is made using JavaScript. It lets you add or delete a particular task of the day. It uses local storage to save your data.',
+    tags:[
+      {
+        one:'JavaScript',
+        two:'Html',
+        three:'CSS3',
+        
+      }
+    ]
+  },
+  {
+    image:github,
+    title:'GitHub Wrapup',
+    link:'https://github.com/snehafarkya/Portfolio2.0',
+    desc:'The todo applicatin is made using JavaScript. It lets you add or delete a particular task of the day. It uses local storage to save your data.',
+    tags:[
+      {
+        one:'JavaScript',
+        two:'Html',
+        three:'CSS3',
+        
+      }
+    ]
+  },
+  {
+    image:todo,
+    title:'To-do app',
+    link:'https://github.com/snehafarkya/Todo-list',
+    desc:'The todo applicatin is made using JavaScript. It lets you add or delete a particular task of the day. It uses local storage to save your data.',
+    tags:[
+      {
+        one:'JavaScript',
+        two:'Html',
         three:'CSS3',
         
       }
