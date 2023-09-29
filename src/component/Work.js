@@ -82,9 +82,9 @@ export default function Work() {
         As an &nbsp;
         <span style={{ color: "#1A165C ", fontWeight: "bold" }}>
           {" "}
-          Open Source enthusiast,{" "}
+          Open Source enthusiast, &nbsp;{" "}
         </span>
-        these are some of my projects.
+          these are some of my projects.
       </Heading>
       <div className="grid md:grid-cols-3 grid-cols-1  ">
         {workData}
