@@ -5,6 +5,8 @@ import shreeram from '../assets/shreeram.png'
 import wonders from '../assets/wonders.png'
 import todo from '../assets/todo.png'
 import github from '../assets/github.png'
+import estatery from '../assets/estatery.png'
+import descent from '../assets/descent.png'
 
 
 const work = [
@@ -95,8 +97,8 @@ const work = [
   {
     image:github,
     title:'GitHub Wrapup',
-    link:'https://github.com/snehafarkya/Portfolio2.0',
-    desc:'The todo applicatin is made using JavaScript. It lets you add or delete a particular task of the day. It uses local storage to save your data.',
+    link:'https://github.com/snehafarkya/Github_api',
+    desc:"Isn't it amazing to find github information of a username all at one place? Dive into the Github Wrapup which uses api to show details of user on github.",
     tags:[
       {
         one:'JavaScript',
@@ -107,10 +109,10 @@ const work = [
     ]
   },
   {
-    image:todo,
-    title:'To-do app',
-    link:'https://github.com/snehafarkya/Todo-list',
-    desc:'The todo applicatin is made using JavaScript. It lets you add or delete a particular task of the day. It uses local storage to save your data.',
+    image:estatery,
+    title:'Estatery',
+    link:'https://github.com/snehafarkya/Real-estate',
+    desc:'This is a kind off assignment which lets you search for a particular property like house or flat and price range. Check out this awesome search and filter website.',
     tags:[
       {
         one:'JavaScript',
@@ -121,10 +123,10 @@ const work = [
     ]
   },
   {
-    image:todo,
-    title:'To-do app',
-    link:'https://github.com/snehafarkya/Todo-list',
-    desc:'The todo applicatin is made using JavaScript. It lets you add or delete a particular task of the day. It uses local storage to save your data.',
+    image:descent,
+    title:'Descent~A Graverse',
+    link:'https://github.com/snehafarkya/Descent_A_Graverse',
+    desc:'My first big project! This is a Gradient-verse where you can find many different gradients and copy them to clipboard. Must try out.',
     tags:[
       {
         one:'JavaScript',
