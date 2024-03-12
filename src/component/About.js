@@ -51,7 +51,8 @@ export default function About() {
             letterSpacing="1px"
             borderBottom="2px solid"
             borderBottomWidth="3px"
-            textColor="white"
+              marginX={{base:'24px',md:'0px'}}
+              textColor="white"
             paddingX={{ base: "16px", md: "4px" }}
           >
             About Me 👩‍💻

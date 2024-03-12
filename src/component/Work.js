@@ -21,7 +21,7 @@ export default function Work() {
             </div>
             <div class="content">
               <h3 className="con-head font-bold">{item.title}</h3>
-              <p className="text-sm text-justify font-semibold text-left py-2">
+              <p className="text-sm  font-semibold text-left py-2">
                 {item.desc}
               </p>
               <button className="github-btn my-5 mb-6 p-2 rounded-md text-sm text-white bg-blue-700">
@@ -60,6 +60,7 @@ export default function Work() {
               fontFamily='Orbitron'
               paddingBottom="4px"
               letterSpacing='1px'
+              marginX={{base:'24px',md:'0px'}}
               borderBottom="2px solid"
               borderBottomWidth="3px"
               textColor="white"

@@ -19,6 +19,7 @@ const Data = [
     image:nodejs,
     title:'Node.js Events: Building Event-Driven Applications',
     category:'Technical',
+    categoryDesc:"In the vast era of rapid technology development, it is necvessary to stay updated! Read my technical articles here.",
     desc:'Node.js is a powerful and widely used JavaScript runtime built on Chromes V8 JavaScript engine. It allows developers to build scalable',
     link:'https://snehafarkya.hashnode.dev/nodejs-events-building-event-driven-applications'
   },  
@@ -26,6 +27,7 @@ const Data = [
     id:'12',
     image:petra,
     title:'The Rose-Tinted Beauty of Petra: Exploring the Sculpturous Rose City',
+    categoryDesc:"Not only I write on tech, but I love travelling and so I am dicovering the hidden gems of WORLD. Come join me in this.",
     category:'Travel',
     desc:'The 2000-year-old city of Petra is among one of the seven wonders of the world. An interesting city covered with ...',
     link:'https://sneha-farkya.notion.site/sneha-farkya/Petra-A-Rose-City-4228d8ca1ead476785d327ac754629c6'
@@ -51,6 +53,7 @@ const Data = [
     id:'11',
     image:meta,
     title:'Moving Towards a Democratic World',
+    categoryDesc:"Living in the society give us every right to know the current happenings as well as to correct the society. Take your popcorn and start reading about Love, society, peer pressure etc.",
     category:'Social',
     desc:'The Internet is getting fast and we are getting trapped! In the modern era, if we want to understand any concept, google...',
     link:'https://snehafarkya.hashnode.dev/moving-towards-a-democratic-internet'

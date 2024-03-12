@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Orbitron&family=Playfair+Display&family=Poppins:wght@200;400&display=swap');
 
-.App{
+body,.App{
 
 height: 100%;
 /* width: auto; */
@@ -11,7 +11,8 @@ height: 100%;
 background-size: 100%;
 /* font-family: 'Orbitron', sans-serif; */
 font-family: 'Poppins', sans-serif;
-background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A902B1 13.52%, #670B8A 35.32%, #37126D 54.77%, #1A165C 87.76%, #0F1755 106.27%);;
+background-color: #36454F;
+/* background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A902B1 13.52%, #670B8A 35.32%, #37126D 54.77%, #1A165C 87.76%, #0F1755 106.27%);; */
 }
 html{
   height: 100vh ;
@@ -198,13 +199,10 @@ html{
 }
 .blogcard:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  transform: scale(1.04);
-  transition: all 0.5s ease-in-out;
+  transform: scale(1.01);
+  transition: all 0.3s ease-in-out;
 }
-.blogimg{
-  padding: 10px 10px;
-  border-radius: 12px;
-}
+
 
 .searchbtn:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -234,4 +232,14 @@ color: #0F1755;
   border-radius: 20px;
   height: 4px;
   border: 3px solid white;
+}
+.btnshadow{
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 8px;
+  transition: .3s;
+}
+.btnshadow:hover {
+  box-shadow: 6px 6px rgba(255, 255, 255, 0.5);
+  transition: .3s;
 }

@@ -9,6 +9,8 @@ const Blogs = () => {
 
   const menuItems = [...new Set(Data.map((Val) => Val.category))];
 
+  // const menuDesc = [...new Set(Data.map((Val) => Val.categoryDesc))];
+
   const filterItem = (curcat) => {
     const newItem = Data.filter((newVal) => {
       return newVal.category === curcat;
@@ -35,17 +37,21 @@ const Blogs = () => {
               borderBottomWidth="3px"
               textColor="white"
               paddingX={{base:"16px",md:"4px"}}
+              marginX={{base:'24px',md:'0px'}}
               marginBottom="20px"
 
             >
               Blogs 📝
             </Heading>
+            <div className="flex md:flex-row flex-col md:gap-16 gap-8 justify-start">
         <Buttons
           filterItem={filterItem}
           setItem={setItem}
           menuItems={menuItems}
+          // menuDesc = {menuDesc}
         />
         <Card item={item}  />
+        </div>
         <div class=" text-center py-4 lg:px-4 w-max m-auto mt-20 ">
           <div
             class="p-2 bg-transparent items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"

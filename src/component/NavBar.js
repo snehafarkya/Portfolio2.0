@@ -80,7 +80,7 @@ const MenuLinks = ({ isOpen }) => {
       <Stack
         spacing={10}
         letterSpacing={2}
-        align="center"
+        align={{base:'start',md:"center"}}
         justify={["center", "space-between", "flex-end", "flex-end"]}
         direction={["column", "row", "row", "row"]}
         pt={[4, 4, 0, 0]}
@@ -131,7 +131,9 @@ const NavBarContainer = ({ children, ...props }) => {
       wrap="wrap"
       w="100%"
       mb={8}
-      p={8}
+      py={8}
+      px={{ base: '6', xl: '28' }}
+      
       bg={["transparent", "transparent", "transparent", "transparent"]}
       color={["white", "white", "primary.700", "primary.700"]}
       {...props}

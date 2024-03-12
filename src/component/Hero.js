@@ -58,6 +58,7 @@ export default function Hero() {
         <img src={hero} alt="" />
       </div>
     </div>
+    
     </>
   );
 }
