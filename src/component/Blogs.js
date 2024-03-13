@@ -43,7 +43,7 @@ const Blogs = () => {
             >
               Blogs 📝
             </Heading>
-            <div className="flex md:flex-row flex-col md:gap-16 gap-8 justify-start">
+            <div className="flex md:flex-row flex-col md:gap-16 gap-6 justify-start">
         <Buttons
           filterItem={filterItem}
           setItem={setItem}
@@ -52,7 +52,7 @@ const Blogs = () => {
         />
         <Card item={item}  />
         </div>
-        <div class=" text-center py-4 lg:px-4 w-max m-auto mt-20 ">
+        <div class=" text-center md:py-4 lg:px-4 w-max m-auto md:mt-20 mt-6 ">
           <div
             class="p-2 bg-transparent items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
             role="alert"
