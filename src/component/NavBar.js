@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import {
   Link,
   Box,
@@ -14,11 +14,28 @@ import logo from '../Portfoliologo (2).png'
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const [scrolling, setScrolling] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setScrolling(true); // Change state to indicate scrolling
+      } else {
+        setScrolling(false); // Change state to indicate no scrolling
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Cleanup the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavBarContainer {...props} background="transparent">
+    <NavBarContainer {...props} background={`${isOpen || scrolling ? '#1F2937':'transparent'}`} className={`fixed md:relative z-50  ${scrolling ? 'bg-grey-800 !important':'bg-transparent'}`}>
       <h1 style={{ color: "white", fontWeight: "bold", letterSpacing: "2px" }}>
         <a href="/">
         <img src={logo} alt="" className="w-max h-10 rounded-md" width={50} height={50}/>

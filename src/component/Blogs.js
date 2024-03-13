@@ -39,6 +39,7 @@ const Blogs = () => {
               paddingX={{base:"16px",md:"4px"}}
               marginX={{base:'24px',md:'0px'}}
               marginBottom="20px"
+              paddingTop={{base:'28', md:'0'}}
 
             >
               Blogs 📝

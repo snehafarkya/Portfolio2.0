@@ -66,6 +66,7 @@ export default function Work() {
               textColor="white"
               marginBottom="20px"
               paddingX={{base:"16px",md:"4px"}}
+              paddingTop={{base:'28', md:'0'}}
 
             >
               Projects ✨

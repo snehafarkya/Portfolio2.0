@@ -18,7 +18,9 @@ html{
   height: 100vh ;
 }
 .nav{
-  background-color: transparent;
+  /* background-color: transparent; */
+  z-index: 9;
+  position: fixed;
 }
 .nav-link{
   color: rgba(255, 255, 255, 0.696);

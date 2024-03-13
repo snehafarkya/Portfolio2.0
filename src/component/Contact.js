@@ -79,6 +79,8 @@ const Contact = () => {
         textColor="white"
         paddingX={{ base: "16px", md: "4px" }}
         className="md:mx-28"
+        paddingTop={{base:'28', md:'0'}}
+
       >
         Contact Me 📌
       </Heading>

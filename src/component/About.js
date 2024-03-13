@@ -54,6 +54,7 @@ export default function About() {
               marginX={{base:'24px',md:'0px'}}
               textColor="white"
             paddingX={{ base: "16px", md: "4px" }}
+            paddingTop={{base:'28', md:'0'}}
           >
             About Me 👩‍💻
           </Heading>
@@ -114,7 +115,7 @@ export default function About() {
               marginTop="4"
               marginRight={8}
               alt="Sneha Farkya"
-              height="400px"
+              height={{base:'auto', md:'400px'}}
               width="-moz-fit-content"
               // paddingX="16px"
               borderRadius="full"
