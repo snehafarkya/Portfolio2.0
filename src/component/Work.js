@@ -21,7 +21,7 @@ export default function Work() {
             </div>
             <div class="content">
               <h3 className="con-head font-bold">{item.title}</h3>
-              <p className="text-sm text-justify font-semibold text-left py-2">
+              <p className="text-sm  font-semibold text-left py-2">
                 {item.desc}
               </p>
               <button className="github-btn my-5 mb-6 p-2 rounded-md text-sm text-white bg-blue-700">
@@ -60,11 +60,13 @@ export default function Work() {
               fontFamily='Orbitron'
               paddingBottom="4px"
               letterSpacing='1px'
+              marginX={{base:'24px',md:'0px'}}
               borderBottom="2px solid"
               borderBottomWidth="3px"
               textColor="white"
               marginBottom="20px"
               paddingX={{base:"16px",md:"4px"}}
+              paddingTop={{base:'28', md:'0'}}
 
             >
               Projects ✨
@@ -80,7 +82,7 @@ export default function Work() {
       >
         {" "}
         As an &nbsp;
-        <span style={{ color: "#1A165C ", fontWeight: "bold" }}>
+        <span style={{ color: "yellow ", fontWeight: "bold" }}>
           {" "}
           Open Source enthusiast, &nbsp;{" "}
         </span>
@@ -91,7 +93,7 @@ export default function Work() {
       </div>
       <div class="text-center py-4 lg:px-4 w-max m-auto mt-20">
         <div
-          class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+          class="p-2 bg-transparent items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
           role="alert"
         >
           <span class="pl-3 font-semibold mr-2 text-left flex-auto text-gray-400">

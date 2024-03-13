@@ -72,12 +72,15 @@ const Contact = () => {
         textAlign={{}}
         fontFamily="Orbitron"
         paddingBottom="4px"
-        letterSpacing="1px"
+              marginX={{base:'24px',md:'0px'}}
+              letterSpacing="1px"
         borderBottom="2px solid"
         borderBottomWidth="3px"
         textColor="white"
         paddingX={{ base: "16px", md: "4px" }}
         className="md:mx-28"
+        paddingTop={{base:'28', md:'0'}}
+
       >
         Contact Me 📌
       </Heading>

@@ -30,7 +30,7 @@ export default function Hero() {
       // }}
     >
       <div className="hero-content order-last md:order-first">
-        <Card w={{md:'xl'}} m="auto" background="transparent" border={"none"} shadow={"none"} className="w-lg shadow-none border-none">
+        <Card w={{md:'xl'}} m="auto" background="transparent"  border={"none"} shadow={"none"} className="w-lg shadow-none border-none">
           <CardHeader>
             <Heading as="h2" size="xl" color="white" fontWeight="bold" fontFamily={"Orbitron,sans-serif"}>
               {" "}
@@ -44,7 +44,7 @@ export default function Hero() {
           </CardHeader>
           <CardBody>
             <Text color="white" >
-            Hey, Namaste, Konnichiwa! I am Sneha from Indore, India. I have 1.5+ years of experience developing beautiful User-friendly Digital Experiences that makes sense.  
+            Hey, Namaste, Konnichiwa! I am Sneha from Indore, India.<b> Welcome to my space!! </b>I have 1.5+ years of experience developing beautiful User-friendly Digital Experiences that makes sense.  
             </Text>
           </CardBody>
           <CardFooter>
@@ -54,10 +54,11 @@ export default function Hero() {
           </CardFooter>
         </Card>
       </div>
-      <div className="hero-img imageee">
-        <img src={hero} alt="" />
+      <div className="hero-img imageee pt-28 md:pt-0">
+        <img src={hero} alt=""  />
       </div>
     </div>
+    
     </>
   );
 }

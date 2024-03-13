@@ -51,13 +51,15 @@ export default function About() {
             letterSpacing="1px"
             borderBottom="2px solid"
             borderBottomWidth="3px"
-            textColor="white"
+              marginX={{base:'24px',md:'0px'}}
+              textColor="white"
             paddingX={{ base: "16px", md: "4px" }}
+            paddingTop={{base:'28', md:'0'}}
           >
             About Me 👩‍💻
           </Heading>
           <Card
-            className="md:flex w-xl md:gap-40 mt-16 grid gap:20 grid-rows-2 justify-center border-none"
+            className="md:flex w-xl md:gap-40 md:mt-8 mt-6 grid gap:20 grid-rows-2 justify-center border-none"
             direction={{ base: "column", sm: "row" }}
             overflow="hidden"
             // variant='outline'
@@ -70,21 +72,16 @@ export default function About() {
             <Stack className=" bg-transparent order-last md:order-first">
               <CardBody>
                 <Text py="4" letterSpacing="1px">
-                  Great to see you here! I am Sneha Farkya, a BCA graduate from
-                  Medi-Caps University, Indore. I am a Frontend Developer and
-                  Technical Writer. 
+                  Great to see you here! I am Sneha Farkya, Frontend Developer and
+                  Technical Writer indulge in creating smooth User Interfaces. As a BCA graduate from Medicaps University, India, I have acquired a strong computer science foundation and honed my front-end developer skills. 
                   <br />
                   <br />
-                  In my role as a Front-end developer, I combine technical
-                  expertise with creativity. My passion for designing and
-                  developing user-friendly web applications has lead me to
-                  sharpen my skills in HTML, CSS, and JavaScript to provide
-                  dynamic, responsive user interfaces.
+                  As a developer, my foremost responsiblity is to understand the requirement and do the needful research to generate positive outcome. Over the months, I have upskilled myself, be it learning or implementing highly scalable code.
                   <br />
                   <br />
-                  I have participated in several hackathons and built several
+                  Not only that, I have participated in several hackathons and built several
                   projects, demonstrating my ability to write concise and clean
-                  code, and document the project Recently, I participated in the
+                  code, and document the project. One of my achievement was when I participated in the
                   SheBuilds hackathon and got a special mention by organizers.
                   <br />
                 </Text>
@@ -116,12 +113,13 @@ export default function About() {
               // maxW={{ base: '100%', sm: '200px' }}
               src={myImg}
               marginTop="4"
+              marginRight={8}
               alt="Sneha Farkya"
-              height="400px"
+              height={{base:'auto', md:'400px'}}
               width="-moz-fit-content"
               // paddingX="16px"
-              borderRadius="56px"
-              className="hover:border-white hover:border-[10px] mx-4 md:mx-0 hover:ease-in-out border-solid hover:border-opacity-30 hover:transition hover:rounded-[44px] hover:duration-700 "
+              borderRadius="full"
+              className=" hover:border-[10px] mx-4 md:mx-0 hover:ease-in-out border-transparent   hover:duration-400 myimage "
               justifyContent={{ sm: "center" }}
               // border='1px'
             />
