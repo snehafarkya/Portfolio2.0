@@ -259,3 +259,20 @@ color: #0F1755;
 		opacity: 1;
 	}
 }
+.skillbtnfill:after{
+position: absolute;
+left: 0;
+top: 100%;
+height: 4px;
+width: 0;
+display: block;
+content:'';
+  transition: width 0.5s ease-in-out;
+}
+.skillbtnfill:hover:after{
+  width:100%;
+
+}
+.expcard{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
