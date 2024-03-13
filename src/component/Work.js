@@ -82,7 +82,7 @@ export default function Work() {
       >
         {" "}
         As an &nbsp;
-        <span style={{ color: "#1A165C ", fontWeight: "bold" }}>
+        <span style={{ color: "yellow ", fontWeight: "bold" }}>
           {" "}
           Open Source enthusiast, &nbsp;{" "}
         </span>
@@ -93,7 +93,7 @@ export default function Work() {
       </div>
       <div class="text-center py-4 lg:px-4 w-max m-auto mt-20">
         <div
-          class="p-2 bg-indigo-800 items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
+          class="p-2 bg-transparent items-center text-indigo-100 leading-none lg:rounded-full flex lg:inline-flex"
           role="alert"
         >
           <span class="pl-3 font-semibold mr-2 text-left flex-auto text-gray-400">

@@ -118,6 +118,10 @@ const MenuLinks = ({ isOpen }) => {
           {" "}
           Work{" "}
         </MenuItem>
+        <MenuItem to="/playlist" className="nav-link">
+          {" "}
+          Playlist{" "}
+        </MenuItem>
         <MenuItem to="/contact" className="nav-link">
           {" "}
           Contact{" "}

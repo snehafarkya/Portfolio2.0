@@ -278,3 +278,29 @@ content:'';
 .expcard{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
+.video-player{
+  /* position: sticky;
+  top: 40px; */
+}
+ iframe{
+  order: 1;
+  border-radius: 24px;
+  margin-top: 24px;
+  position: sticky;
+  top: 4px;
+  width: 700px;
+  height: 400px;
+  /* overflow: hidden; */
+}
+@media screen and (max-width:600px) {
+  iframe{
+    width: 350px;
+    height: 200px;
+  }
+  .video-player{
+    width: 300px;
+  }
+  .react-player{
+    width: 300px;
+  }
+}
