@@ -7,7 +7,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import customTheme from "./utils/themes";
 import { BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
-
+import { Analytics } from '@vercel/analytics/react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,6 +15,7 @@ root.render(
     <HelmetProvider>
     <BrowserRouter>
  <ChakraProvider theme={customTheme}>
+  <Analytics/>
     <App />
     </ChakraProvider>
     </BrowserRouter>
