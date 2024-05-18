@@ -1,6 +1,8 @@
 import React, { useRef , useState} from "react";
 import emailjs from "@emailjs/browser";
-import contact from "../assets/contact.png";
+import contact from "../assets/myImg2.png";
+import vector from "../assets/Vector.png";
+
 import { Heading } from "@chakra-ui/react";
 import { Helmet } from "react-helmet-async";
 import Axios from 'axios';
@@ -82,11 +84,11 @@ const Contact = () => {
         paddingTop={{base:'28', md:'0'}}
 
       >
-        Contact Me 📌
+        Get In Touch🤝
       </Heading>
-      <div className="grid grid-cols-1 place-items-center md:grid-cols-2 h-full ">
-        <img src={contact} alt="" />
-        <div class="exp-card block p-6 rounded-lg shadow-lg bg-white w-md md:w-3/5 m-4">
+      <div className="grid grid-cols-1 place-items-center rounded-xl md:grid-cols-2 h-full  mx-auto">
+      
+        <div class=" block p-6 rounded-lg shadow-lg bg-white w-md md:w-3/5 m-4">
           <form ref={form} onSubmit={handleSubmit} id="formm">
             <div class="form-group mb-6  ">
               <input
@@ -142,6 +144,11 @@ const Contact = () => {
           <div className="hidden " id="thank">
             <p>This means a lot 💜. Have a nice day!</p>
           </div>
+        </div>
+        <div class="container md:flex hidden">
+       <img src={vector} alt="Background" className="background  "/>
+
+        <img src={contact} alt="" className="rounded-lg overlay w-[60%] h-max  rounded-tr-none rounded-br-none border-r-0 "/>
         </div>
       </div>
     </>
