@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async';
 import Tailwind from '../assets/tailwind.webp'
 import freelance from '../assets/freelance.webp'
 
+// UCNizQ0yVEPOm3-QJBKcG5Nw
 const Playlist = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const videos = [
@@ -28,26 +29,7 @@ const Playlist = () => {
       image:Tailwind,
 
     },
-    {
-      vid: 'https://youtu.be/h1oYVlC7hVQ',
-      title: 'Integrate Tailwind CSS with React - A beginner tutorial',
-      date:'06 Aug 2023',
-      image:Tailwind,
-    },
-    {
-      vid: 'https://youtu.be/XmcpPuQxJZU',
-      title: 'How I made money by freelancing | Tips and Tricks | Answering your queries',
-      date:'12 July 2023',
-      image:freelance,
-
-    },
-    {
-      vid: 'https://youtu.be/ueTpuUtCOY8',
-      title: 'A Gentle Introduction to React Redux Library',
-      date:'12 July 2023',
-      image:Tailwind,
-
-    },
+    
     // Add more video URLs as needed
   ];
 
@@ -58,7 +40,7 @@ const Playlist = () => {
   return (
     <>
       <Helmet>
-        <title>Blogs page</title>
+        <title>Youtube Playlist</title>
         <meta
           name="description"
           content="This is the blogs page of my portfolio. I am a technical writer and I write about tech and travel."
@@ -94,11 +76,11 @@ const Playlist = () => {
           
           {videos.map((video, index) => (
             <div key={index} className="video-item flex md:flex-row flex-col mx-6  gap-4  md:w-[470px] my-6 cursor-pointer rounded-lg text-gray-800  bg-white order-2 expcard" onClick={() => handleVideoClick(index)}>
-              <img src={video.image} className='md:w-56 z-10 md:rounded-tl-lg md:rounded-bl-lg rounded-t-lg'  />
+              <img src={video.image} className='md:w-56 z-10 md:rounded-tl-lg md:rounded-tr-none  md:rounded-bl-lg rounded-t-lg'  />
               <div className="flex flex-col px-4">
                 <p className='text-ellipsis line-clamp-2 my-4 text-base font-bold'>{video.title}</p>
               
-              <p className='text-sm mb-8 md:mb-0 font-semibold'>Date: {video.date}</p>
+              <p className='text-xs mb-10 md:mb-0 font-medium'>Date: {video.date}</p>
               </div>
             </div>
 

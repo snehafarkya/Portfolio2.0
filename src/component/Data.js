@@ -86,7 +86,7 @@ const Data = [
   {
     id:'6',
     image:aws2,
-    title:'Different ways to get AWS credits',
+    title:'Different ways to get the AWS credits',
     category:'Technical',
     desc:'A cost-effective services, products, data warehouses, high-powered computing, storage, development, analytics, content...',
     link:'https://docs.google.com/document/d/15OQn6CT7sOJIIbwMzZ-qhKJV_rs5Y0NEQDiNELptlIo/edit?usp=sharing'
@@ -118,7 +118,8 @@ const Data = [
   {
     id:'9',
     image:insta,
-    title:'How to build brand on Instagram',
+    title:'How to build brand on Instagram: beginners guide',
+
     category:'Social',
     desc:'Fascinating right? Instagram has now become the voice of billions of people around the world! Owned by Facebook in 2012, Instagram has...',
     link:'https://docs.google.com/document/d/1Vjke2bCMLbWKYHuIpEO3iIwt2Vmc2gVGuvD9G83XSuE/edit?usp=sharing'
@@ -126,7 +127,7 @@ const Data = [
   {
     id:'10',
     image:linkedin,
-    title:'Mark a shine on Linkedin Profile',
+    title:'Mark a impact on your Linkedin Profile',
     category:'Social',
     desc:'LinkedIn is a social platform that is used for professional purposes, connecting the world over the internet. It was Launched on May 5, 2003...',
     link:'https://snehafarkya.hashnode.dev/how-to-get-started-with-linkedin-profile'

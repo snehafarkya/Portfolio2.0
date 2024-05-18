@@ -11,7 +11,8 @@ height: 100%;
 background-size: 100%;
 /* font-family: 'Orbitron', sans-serif; */
 font-family: 'Poppins', sans-serif;
-background-color: #36454F;
+background-color: #1b242a;
+min-height: 100vh;
 /* background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A902B1 13.52%, #670B8A 35.32%, #37126D 54.77%, #1A165C 87.76%, #0F1755 106.27%);; */
 }
 html{
@@ -195,10 +196,10 @@ html{
   opacity: 1;
   box-shadow: 2px 5px 20px rgba(128, 128, 128, 0.322);
 }
-.blogcard{
+/* .blogcard{
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
+} */
 .blogcard:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transform: scale(1.01);
@@ -241,7 +242,7 @@ color: #0F1755;
   border-radius: 8px;
   transition: .3s;
 }
-.btnshadow:hover {
+.btnshadow:hover, .btnshadow:focus {
   box-shadow: 6px 6px rgba(255, 255, 255, 0.5);
   transition: .3s;
 }
@@ -304,3 +305,9 @@ content:'';
     width: 300px;
   }
 }
+.group-hover-translate-x {
+  transition: transform 0.7s ease-in-out;
+}
+.group:hover .group-hover-translate-x {
+  transform: translateX(var(--translate-x));
+} 

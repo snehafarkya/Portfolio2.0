@@ -7,75 +7,110 @@ export default function Skills() {
   const data = [
     {
       icon: <FaHtml5 color='black' size='56' className='  z-50 h-12 p-1 flex justify-center items-center'/>,
-      label:'5/5 HTML5'
+      label:'5/5 HTML5',
+      opacity:'263px',
     },
     {
       icon:<FaCss3Alt color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'5/5 CSS3'
+      label:'5/5 CSS3',
+      opacity:'263px',
+
     },
     {
       icon:<FaBootstrap color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'4/5 BootStrap'
+      label:'4/5 BootStrap',
+      opacity:'210px',
+
     },
     {
       icon:<FaReact color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'4/5 React Js'
+      label:'4/5 React Js',
+      opacity:'210px',
+
     },
     {
       icon:<FaJsSquare color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'4/5 JavaScript'
+      label:'4/5 JavaScript',
+      opacity:'210px',
+
     },
     {
       icon:<FaGithubSquare color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'5/5 GitHub'
+      label:'5/5 GitHub',
+      opacity:'263px',
+
     },
     {
       icon:<FaSass color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'4/5 Sass'
+      label:'4/5 Sass',
+      opacity:'210px',
+
     },
     {
       icon:<SiNotion color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'5/5 Notion'
+      label:'5/5 Notion',
+      opacity:'263px',
+
     },
     {
       icon:<FaMicrosoft color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'5/5 Microsoft'
+      label:'5/5 Microsoft',
+      opacity:'263px',
+
     },
     {
       icon:<FaNode color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'3/5 Node'
+      label:'3/5 Node',
+      opacity:'158px',
+
     },
     {
       icon:<FaNpm color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'4/5 Npm'
+      label:'4/5 Npm',
+      opacity:'210px',
+
     },
     {
       icon:<SiWordpress color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'5/5 HTML5'
+      label:'5/5 HTML5',
+      opacity:'263px',
+
     },
     {
       icon:<SiTailwindcss color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'5/5 HTML5'
+      label:'5/5 HTML5',
+      opacity:'263px',
+
     },
     {
       icon:<SiNetlify color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'4/5 Netlify'
+      label:'4/5 Netlify',
+      opacity:'210px',
+
     },
     {
       icon:<SiNextdotjs color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'4/5 Next Js'
+      label:'4/5 Next Js',
+      opacity:'210px',
+
     },
     {
       icon: <SiMysql color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'3/5 MySql'
+      label:'3/5 MySql',
+      opacity:'158px',
+
     },
     {
       icon: <IoLogoVercel color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'5/5 Vercel'
+      label:'5/5 Vercel',
+      opacity:'263px',
+
     },
     {
       icon: <FaBitbucket color='black' size='56' className='  z-50 h-12 p-1'/>,
-      label:'5/5 BitBucket'
+      label:'5/5 BitBucket',
+      opacity:'263px',
+
     },
   ]
   return (
@@ -96,9 +131,12 @@ export default function Skills() {
     {data.map((item,index)=>{
       return(
         <>
-         <div className="w-80 bg-white/50 group transition ease-in-out duration-700 h-14 hover:bg-white rounded-3xl z-10 relative flex items-center">
-      <div className="rounded-3xl h-14  group-hover:translate-x-[263px] transition ease-in-out duration-700 bg-white absolute flex justify-center items-center">
-    {/* <FaHtml5 color='black' size='56' className='rounded-3xl z-50 h-14'/> */}
+         <div className="w-80 bg-white/50 group transition ease-in-out duration-700 h-14 hover:bg-white rounded-3xl z-10 relative flex items-center"
+          style={{ '--hover-width': item.opacity }}>
+
+      <div className={`rounded-3xl h-14 group-hover-translate-x  transition ease-in-out duration-700 bg-white absolute flex justify-center items-center`}
+      style={{ '--translate-x': item.opacity }}>
+
 {item.icon}
     </div>
     <p className='text-center flex justify-center items-center mx-auto skillbtnfill left-20 text-xl group-hover:scale-[1.03] font-bold'>{item.label}</p>
