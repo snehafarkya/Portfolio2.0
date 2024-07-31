@@ -285,12 +285,17 @@ content:'';
 }
  iframe{
   order: 1;
-  border-radius: 24px;
-  margin-top: 24px;
-  position: sticky;
-  top: 4px;
-  width: 700px;
-  height: 400px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  /* margin-top: 24px; */
+  /* position: sticky; */
+  /* top: 4px; */
+  width: 350px;
+  position: relative;
+  height: 200px;
+  
+
   /* overflow: hidden; */
 }
 @media screen and (max-width:600px) {

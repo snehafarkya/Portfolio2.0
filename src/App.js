@@ -9,6 +9,7 @@ import Work from './component/Work';
 import Contact from './component/Contact';
 import Blogs from './component/Blogs';
 import Playlist from './component/Playlist';
+import Youtube from './component/Youtube';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Route path='/work' element={<Work/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/blogs' element={<Blogs/>}/>
-        <Route path='/playlist' element={<Playlist/>}/>
+        <Route path='/playlist' element={<Youtube/>}/>
 
       </Routes>
       <Footer/>
