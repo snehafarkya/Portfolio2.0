@@ -125,7 +125,7 @@ export default function Skills() {
     color='white'
     // className='icon'
   >
-    Skills
+    Professional Skill Set
   </Heading>
   <div className=" grid grid-cols-1 md:grid-cols-3 gap-10 gap-x-10 md:py-20 py-10 place-items-center">
     {data.map((item,index)=>{
@@ -134,12 +134,12 @@ export default function Skills() {
          <div className="w-80 bg-white/50 group transition ease-in-out duration-700 h-14 hover:bg-white rounded-3xl z-10 relative flex items-center"
           style={{ '--hover-width': item.opacity }}>
 
-      <div className={`rounded-3xl h-14 group-hover-translate-x  transition ease-in-out duration-700 bg-white absolute flex justify-center items-center`}
+      <div className={`rounded-3xl h-14 group-hover-translate-x  transition z-50 ease-in-out duration-700 bg-white absolute flex justify-center items-center`}
       style={{ '--translate-x': item.opacity }}>
 
 {item.icon}
     </div>
-    <p className='text-center flex justify-center items-center mx-auto skillbtnfill left-20 text-xl group-hover:scale-[1.03] font-bold'>{item.label}</p>
+    <p className='text-center flex justify-center items-center mx-auto group-hover:text-black skillbtnfill left-20 text-xl group-hover:scale-[1.03] font-bold'>{item.label}</p>
     </div>
         </>
       )

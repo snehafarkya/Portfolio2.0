@@ -3,8 +3,7 @@ import ReactPlayer from 'react-player';
 import { Heading } from '@chakra-ui/react';
 import { Helmet } from 'react-helmet-async';
 import xmljs from 'xml-js';
-import todo from '../assets/todo.png'
-import wonders from '../assets/wonders.png'
+import { MdInsights } from "react-icons/md";
 
 
 const Youtube = () => {
@@ -96,13 +95,17 @@ const Youtube = () => {
       />
     </div>
                 <div className="flex flex-col gap-1 px-4 pb-4">
+                  <div className="flex justify-between">
+                  </div>
                   <span className='text-ellipsis leading-5 line-clamp-2 text-black text-base font-bold'>
                     {video.title._text}
                   </span>
-                  <p className='text-gray-600 font-semibold text-sm'>
+                  <p className='text-gray-600 flex justify-between items-center font-semibold text-sm'>
                     {/* {video.author.name._text} &#x2022;  */}
                     {/* <span className='text-gray-600 font-medium'> */}
                       {formatDate(video.published._text)}
+                    <span><MdInsights /> {video?.media?.group?.media?.statistics?._attributes?.views}</span>
+                    {/* {console.log('views:',video.media.group)} */}
                     {/* </span> */}
                   </p>
                 </div>

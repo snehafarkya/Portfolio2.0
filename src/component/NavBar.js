@@ -1,48 +1,37 @@
 import React, { useState, useEffect } from "react";
-import {
-  Link,
-  Box,
-  Flex,
-  Text,
-  Button,
-  Stack,
-  Heading,
-} from "@chakra-ui/react";
-import logo from '../Portfoliologo (2).png'
-// import { ReactComponent as Logo } from "../crown.svg";
-// import Logo from '../logo.svg'
+import { Box, Flex, useColorMode } from "@chakra-ui/react";
+import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
+import { NavLink } from "react-router-dom";
+import PrimaryButton from "./Globals/PrimaryButton";
 
 const NavBar = (props) => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
+  const { colorMode, toggleColorMode } = useColorMode();
+
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
-        setScrolling(true); // Change state to indicate scrolling
-      } else {
-        setScrolling(false); // Change state to indicate no scrolling
-      }
+      setScrolling(window.scrollY > 10);
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
-    // Cleanup the event listener when the component unmounts
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavBarContainer {...props} background={`${isOpen || scrolling ? '#1F2937':'transparent'}`} className={`fixed md:relative z-50  ${scrolling ? 'bg-grey-800 !important':'bg-transparent'}`}>
-      <h1 style={{ color: "white", fontWeight: "bold", letterSpacing: "2px" }}>
-        <a href="/">
-        <img src={logo} alt="" className="w-max h-10 rounded-md" width={50} height={50}/>
-        </a>
-      </h1>
+    <NavBarContainer
+      {...props}
+      className={`fixed md:w-fit w-[100%] md:mx-auto md:rounded-[50px] px-4 backdrop-blur-md transition-all ease-in-out duration-300 md:sticky md:top-0 z-50 ${
+        scrolling ? "bg-[#f0f4ffe3]" : "bg-[#f0f4ff]"
+      }`}
+    >
       <MenuToggle toggle={toggle} isOpen={isOpen} />
-      <MenuLinks isOpen={isOpen} />
+      <MenuLinks isOpen={isOpen} colorMode={colorMode} toggleColorMode={toggleColorMode} />
     </NavBarContainer>
   );
 };
@@ -58,12 +47,7 @@ const CloseIcon = () => (
 );
 
 const MenuIcon = () => (
-  <svg
-    width="24px"
-    viewBox="0 0 20 20"
-    xmlns="http://www.w3.org/2000/svg"
-    fill="white"
-  >
+  <svg width="24px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="white">
     <title>Menu</title>
     <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
   </svg>
@@ -77,68 +61,36 @@ const MenuToggle = ({ toggle, isOpen }) => {
   );
 };
 
-const MenuItem = ({ children, isLast, to = "/", ...rest }) => {
+const MenuItem = ({ children, to = "/", ...rest }) => {
   return (
-    <Link href={to}  _hover={{
-      textDecoration: 'none',}}>
-      <Text display="block" {...rest}>
-        {children}
-      </Text>
-    </Link>
+    <NavLink to={to} exact activeClassName="nav-link-active" className="nav-link" {...rest}>
+      {children}
+    </NavLink>
   );
 };
 
-const MenuLinks = ({ isOpen }) => {
+const MenuLinks = ({ isOpen, colorMode, toggleColorMode }) => {
   return (
-    <Box
-      display={{ base: isOpen ? "block" : "none", md: "block" }}
-      flexBasis={{ base: "100%", md: "auto" }}
-    >
-      <Stack
-        spacing={10}
-        letterSpacing={2}
-        align={{base:'start',md:"center"}}
-        justify={["center", "space-between", "flex-end", "flex-end"]}
-        direction={["column", "row", "row", "row"]}
-        pt={[4, 4, 0, 0]}
-        color="white"
-      >
-        <MenuItem to="/" className="nav-link">
-          Home
-        </MenuItem>
-        <MenuItem to="/about" className="nav-link">
-          {" "}
-          About Me
-        </MenuItem>
-        <MenuItem to="/blogs" className="nav-link">
-          {" "}
-          Blogs{" "}
-        </MenuItem>
-        <MenuItem to="/work" className="nav-link">
-          {" "}
-          Work{" "}
-        </MenuItem>
-        <MenuItem to="/playlist" className="nav-link">
-          {" "}
-          Playlist{" "}
-        </MenuItem>
-        <MenuItem to="/contact" className="nav-link">
-          {" "}
-          Contact{" "}
-        </MenuItem>
-
-        {/* <MenuItem to="/pricing"> Contact Me </MenuItem> */}
-        <MenuItem isLast >
-          <a
-            href="https://drive.google.com/drive/folders/1oF7zEMqOOv109R2ECOahu0zUh8-ATmN1?usp=sharing"
-            target={"_blank"}
+    <Box display={{ base: isOpen ? "block" : "none", md: "block" }} flexBasis={{ base: "100%", md: "auto" }}>
+      <div className="flex justify-between items-center w-[1250px]">
+        <div className="flex justify-center items-center gap-4">
+          <MenuItem to="/">Home</MenuItem>
+          {/* <MenuItem to="/about">About Me</MenuItem> */}
+          <MenuItem to="/blogs">Blogs</MenuItem>
+          <MenuItem to="/work">Work</MenuItem>
+          <MenuItem to="/playlist">Playlist</MenuItem>
+          <MenuItem to="/contact">Contact</MenuItem>
+        </div>
+        <div className="flex justify-center items-center gap-4">
+          <Box
+            className="bg-[linear-gradient(#0a173f,#414c6e)] rounded-full p-3 transition-all ease-in-out duration-700 active:animate-spin active:duration-[12000ms] cursor-pointer"
+            onClick={toggleColorMode}
           >
-            <button className="btn-res" style={{ background: "transparent" }}>
-              Resume
-            </button>
-          </a>
-        </MenuItem>
-      </Stack>
+            {colorMode === "light" ? <MdOutlineDarkMode size={26} color="white" /> : <MdOutlineLightMode size={26} color="white" />}
+          </Box>
+            <PrimaryButton href="https://drive.google.com/file/d/1TTyX8rNdJWVpEY32b6yaMwCJCf6AKkmT/view?usp=sharing" text="Resume" />
+        </div>
+      </div>
     </Box>
   );
 };
@@ -150,12 +102,9 @@ const NavBarContainer = ({ children, ...props }) => {
       align="center"
       justify="space-between"
       wrap="wrap"
-      w="100%"
       mb={8}
-      py={8}
-      px={{ base: '6', xl: '28' }}
-      
-      bg={["transparent", "transparent", "transparent", "transparent"]}
+      py={3}
+      px={{ base: "6", xl: "6" }}
       color={["white", "white", "primary.700", "primary.700"]}
       {...props}
     >
