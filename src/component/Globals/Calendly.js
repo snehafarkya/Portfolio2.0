@@ -10,7 +10,7 @@ export default function Calendly() {
                   rootElement={document.getElementById("root")}
                   text="Set up a call!"
                   variant="solid"
-                  className='button-86'
+                  className='button-86 '
                   style={{ marginTop: "-25px" }}
                   pageSettings={{
                     backgroundColor: "grey",

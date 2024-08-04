@@ -3,17 +3,11 @@
 body,.App{
 
 height: 100%;
-/* width: auto; */
-/* max-height: max-content ; */
-/* height: 100vh; */
-/* letter-spacing: 1px; */
 background-size: 100%;
-/* font-family: 'Orbitron', sans-serif; */
 font-family: 'Inter', sans-serif;
-background-image: linear-gradient(#0a173f,#414c6e);
-/* background-color: #f8faff; */
+/* overflow-x: hidden; */
+/* background-image: linear-gradient(#0a173f,#414c6e); */
 min-height: 100vh;
-/* background-image: url(./Group.png) ,linear-gradient(180deg, #BA00BB -6.87%, #A902B1 13.52%, #670B8A 35.32%, #37126D 54.77%, #1A165C 87.76%, #0F1755 106.27%);; */
 }
 .App{
   padding-top: 24px;
@@ -36,45 +30,25 @@ html{
 
 .nav-link:hover{
   color: #1b242a;
-  /* transform: scale(1.06); */
   background-image: linear-gradient(40deg,#ffffff,#c8d2ee);
-        border: 0 solid #d9e3ff;
+  border: 0 solid #d9e3ff;
   filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-  
-  /* background-image: linear-gradient(45deg, #36126dcd 60%, #A902B1 40%); */
   border-radius: 50px;
   transition: 0.2s all ease-out;
-  /* transform: rotate3d(0,0,1,2deg); */
-/* background-color: #A902B1; */
-}
-/* .imageee {
 
-  transform: skew(5deg);
- 
-  animation: shake 2s infinite;
-  animation-direction: alternate;
 }
-
-@keyframes shake {
-  0% {
-    transform: skewY(1deg);
-  }
-  100% {
-    transform: skewY(-1deg);
-  }
-} */
 
 .btn-prim,.btn-res{
   color: white;
   opacity:80%;
-        padding: 5px 30px;
-        height: 50px;
-        width: auto;
-        /* margin-top: 1em; */
-        background:transparent;
-        border: 2px rgba(255, 255, 255, 0.66) solid;
-        border-radius: 0px 0px 30px 0px;
-        position: relative;
+  padding: 5px 30px;
+  height: 50px;
+  width: auto;
+  /* margin-top: 1em; */
+  background:transparent;
+  border: 2px rgba(255, 255, 255, 0.66) solid;
+  border-radius: 0px 0px 30px 0px;
+  position: relative;
 }
 
 .send-btn{
@@ -143,7 +117,6 @@ html{
   
 }
 
-
 .containerr .card .image {
   position : relative;
   width : 260px;
@@ -201,10 +174,7 @@ html{
   opacity: 1;
   box-shadow: 2px 5px 20px rgba(128, 128, 128, 0.322);
 }
-/* .blogcard{
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-} */
 .blogcard:hover{
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   transform: scale(1.01);
@@ -284,24 +254,13 @@ content:'';
 .expcard{
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
-.video-player{
-  /* position: sticky;
-  top: 40px; */
-}
  iframe{
   order: 1;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-
-  /* margin-top: 24px; */
-  /* position: sticky; */
-  /* top: 4px; */
-  width: 350px;
+  width: 320px;
   position: relative;
-  height: 200px;
-  
-
-  /* overflow: hidden; */
+  height: 180px;
 }
 @media screen and (max-width:600px) {
   iframe{
@@ -324,7 +283,6 @@ content:'';
 .container {
   position: relative;
   width: 500px; /* Adjust the width as needed */
-  /* height: 300px; Adjust the height as needed */
 }
 
 .background {
@@ -338,8 +296,7 @@ content:'';
   top: 50%; /* Adjust as needed */
   left: 50%; /* Adjust as needed */
   transform: translate(-50%, -50%); /* Center the overlay */
-  /* width: 100px; Adjust the size as needed */
-  /* height: auto; Maintain aspect ratio */
+
 }
 
 
@@ -385,7 +342,15 @@ content:'';
   -webkit-backdrop-filter: blur(5px);
   border-radius: 50px;
 }
+.dark .button-86::before{
+  background: #0a173f;
+}
+.dark .button-86::after{
+  background: #ffffff15;
 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
 .button-86::after {
   transform: translate(10px, 10px);
   width: 35px;
@@ -411,4 +376,16 @@ content:'';
 .button-86:active::after {
   transition: 0s;
   transform: translate(0, 5%);
+}
+.bg-fill {
+  background-color: #dadeec;
+  width: 0;
+}
+
+.group:hover .bg-fill {
+  width: var(--fill-width );
+}
+
+.group:hover .translate-icon {
+  transform: translateX(var(--fill-width));
 }

@@ -8,11 +8,11 @@ const Card = ({ item }) => {
           {item.map((Val) => {
             return (
               <a href={Val.link} target="blank" >
-              <div class="blogcard md:max-w-[340px] w-[340px]  group rounded-xl  transition ease-in-out  overflow-hidden border-transparent z-50 shadow-lg bg-[#FAF9F6] m-auto h-full ">
+              <div class="blogcard text-[#18244b] md:max-w-[340px] w-[340px]  group rounded-xl  transition ease-in-out  overflow-hidden border-transparent z-50 shadow-lg bg-[linear-gradient(40deg,#ffffff,#c8d2ee)] m-auto h-full ">
                 <img class="blogimg w-full h-48 rounded-t-xl group-hover:scale-[1.05]  overflow-hidden transition ease-in-out duration-700 z-10" src={Val.image} alt={Val.title}></img>
-                <div class="px-6 py-4 z-30 bg-[#FAF9F6] overflow-hidden relative">
-                  <div class="font-bold text-base mb-2 text-ellipsis line-clamp-2">{Val.title}</div>
-                  <p class="text-gray-700 text-sm text-ellipsis line-clamp-3">
+                <div class="px-6 py-4 z-30 overflow-hidden relative">
+                  <div class="font-bold text-[#18244b] text-base mb-2 text-ellipsis line-clamp-2">{Val.title}</div>
+                  <p class="text-[#18244b] text-sm text-ellipsis line-clamp-3">
                     {Val.desc}
                   </p>
                 </div>

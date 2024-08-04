@@ -54,20 +54,19 @@ export default function About() {
             borderBottomWidth="3px"
               marginX={{base:'24px',md:'0px'}}
               marginTop={{base:'24px',md:'80px'}}
-              textColor="white"
             paddingX={{ base: "16px", md: "4px" }}
             paddingTop={{base:'28', md:'0'}}
+            className="text-white dark:text-[#18224b]"
           >
             Wondering about me? 👩‍💻
           </Heading>
           <Card
-            className="md:flex w-xl md:gap-20 md:mt-8 mt-6 grid gap:20 grid-rows-2 justify-center border-none"
+            className="md:flex w-xl md:gap-20 md:mt-8 mt-6 text-white dark:text-[#18224b] grid gap:20 grid-rows-2 justify-center border-none"
             direction={{ base: "column", sm: "row" }}
             overflow="hidden"
             // variant='outline'
             border="none"
             background="transparent"
-            color="white"
             shadow={"none"}
 
           >

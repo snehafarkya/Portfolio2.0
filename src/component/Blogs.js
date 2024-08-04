@@ -35,16 +35,15 @@ const Blogs = () => {
               letterSpacing='1px'
               borderBottom="2px solid"
               borderBottomWidth="3px"
-              textColor="white"
               paddingX={{base:"16px",md:"4px"}}
               marginX={{base:'24px',md:'0px'}}
               marginBottom="20px"
               paddingTop={{base:'28', md:'0'}}
-
+              className="text-white dark:text-[#18224b]"
             >
               Blogs 📝
             </Heading>
-            <div className="flex md:flex-row flex-col md:gap-16 gap-6 justify-start">
+            <div className="flex md:flex-row flex-col md:gap-8 gap-6 justify-start">
         <Buttons
           filterItem={filterItem}
           setItem={setItem}

@@ -52,7 +52,7 @@ const Data = [
   {
     id:'11',
     image:meta,
-    title:'Moving Towards a Democratic World',
+    title:'Moving Towards a Democratic World: A Metaverse',
     categoryDesc:"Living in the society give us every right to know the current happenings as well as to correct the society. Take your popcorn and start reading about Love, society, peer pressure etc.",
     category:'Social',
     desc:'The Internet is getting fast and we are getting trapped! In the modern era, if we want to understand any concept, google...',
@@ -72,7 +72,7 @@ const Data = [
     image:cloud1,
     title:'A Rise in the Clouds: Analyzing Google Cloud Revenue',
     category:'Technical',
-    desc:'Five years ago, Google entered the market of Cloud Computing. It started providing...',
+    desc:'Five years ago, Google entered the market of Cloud Computing. It started providing cloud services and infrastructure...',
     link:'https://docs.google.com/document/d/15dCHYIrvzACtLXp16cVlldBVbCOlMYJO-TyM0TMTpbk/edit?usp=sharing'
   },
   {

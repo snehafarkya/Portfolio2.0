@@ -32,14 +32,6 @@ export default function Hero() {
       </Helmet>
       <div
         className="herosec grid grid-cols-1 md:gap-10 md:my-8 md:mt-16 place-items-center "
-        // style={{
-        //   display: "grid",
-        //   gridTemplateColumns: "auto auto",
-        //   justifyContent: "center",
-        //   alignItems: "center",
-        //   gap: "10em",
-
-        // }}
       >
         <div className=" order-last md:order-first">
           <Card
@@ -54,7 +46,7 @@ export default function Hero() {
               <Heading
                 as="h2"
                 size="2xl"
-                color="white"
+                className=" dark:text-[#18244b] text-white"
                 fontWeight="bold"
                 letterSpacing={"wide"}
                 fontFamily={"Orbitron,sans-serif"}
@@ -75,7 +67,7 @@ export default function Hero() {
               </Heading>
             </CardHeader>
             <CardBody>
-              <div className=" w-fit flex gap-8 justify-center p-2 border rounded-xl items-center">
+              <div className=" w-fit flex gap-8 justify-center p-2 border dark:border-[#18244b] rounded-xl items-center">
               <Image
               // objectFit="cover"
               // maxW={{ base: '100%', sm: '200px' }}
@@ -88,7 +80,7 @@ export default function Hero() {
               justifyContent={{ sm: "center" }}
               // border='1px'
             />
-              <Text color="white" textAlign={"left"}>
+              <Text className="dark:text-[#18244b] text-white" textAlign={"left"}>
                 Hello and Namaste! I’m Sneha from Indore,
                 India. With over 2 years of experience, I specialize in
                 developing user-friendly digital experiences that blend
@@ -100,7 +92,7 @@ export default function Hero() {
               </div>
             </CardBody>
             <CardFooter className="flex justify-center items-center gap-4">
-              <SecondaryButton href={"/about"} text={"Know more about me"} />
+              <SecondaryButton additionalClasses="dark:bg-[linear-gradient(40deg,#ffffff,#c8d2ee)]" href={"/about"} text={"Know more about me"} />
               <Calendly/>
             </CardFooter>
           </Card>

@@ -3,11 +3,14 @@ import { Box, Flex, useColorMode } from "@chakra-ui/react";
 import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import PrimaryButton from "./Globals/PrimaryButton";
+import { useTheme } from '../ThemeContext';
+
 
 const NavBar = (props) => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolling, setScrolling] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
+  const { darkMode, toggleDarkMode } = useTheme();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,10 +31,10 @@ const NavBar = (props) => {
       {...props}
       className={`fixed md:w-fit w-[100%] md:mx-auto md:rounded-[50px] px-4 backdrop-blur-md transition-all ease-in-out duration-300 md:sticky md:top-0 z-50 ${
         scrolling ? "bg-[#f0f4ffe3]" : "bg-[#f0f4ff]"
-      }`}
+      } dark:bg-[linear-gradient(#0a173f,#414c6e)]`}
     >
       <MenuToggle toggle={toggle} isOpen={isOpen} />
-      <MenuLinks isOpen={isOpen} colorMode={colorMode} toggleColorMode={toggleColorMode} />
+      <MenuLinks isOpen={isOpen} colorMode={darkMode} toggleColorMode={toggleDarkMode} />
     </NavBarContainer>
   );
 };
@@ -63,7 +66,7 @@ const MenuToggle = ({ toggle, isOpen }) => {
 
 const MenuItem = ({ children, to = "/", ...rest }) => {
   return (
-    <NavLink to={to} exact activeClassName="nav-link-active" className="nav-link" {...rest}>
+    <NavLink to={to} exact activeClassName="nav-link-active" className="nav-link dark:text-white" {...rest}>
       {children}
     </NavLink>
   );
@@ -83,12 +86,12 @@ const MenuLinks = ({ isOpen, colorMode, toggleColorMode }) => {
         </div>
         <div className="flex justify-center items-center gap-4">
           <Box
-            className="bg-[linear-gradient(#0a173f,#414c6e)] rounded-full p-3 transition-all ease-in-out duration-700 active:animate-spin active:duration-[12000ms] cursor-pointer"
+            className="bg-[linear-gradient(#0a173f,#414c6e)] dark:bg-[linear-gradient(#dde5fa,#dadeec)] rounded-full p-3 transition-all ease-in-out duration-700 active:animate-spin active:duration-[12000ms] cursor-pointer"
             onClick={toggleColorMode}
           >
-            {colorMode === "light" ? <MdOutlineDarkMode size={26} color="white" /> : <MdOutlineLightMode size={26} color="white" />}
+            {!colorMode ? <MdOutlineDarkMode size={26} className="text-white dark:text-[#18224b]" /> : <MdOutlineLightMode size={26} className="text-white dark:text-[#18224b]"  />}
           </Box>
-            <PrimaryButton href="https://drive.google.com/file/d/1TTyX8rNdJWVpEY32b6yaMwCJCf6AKkmT/view?usp=sharing" text="Resume" />
+            <PrimaryButton additionalClasses="text-white dark:text-[#18224b] bg-[linear-gradient(#0a173f,#414c6e)] dark:bg-[linear-gradient(#dde5fa,#dadeec)]" href="https://drive.google.com/file/d/1TTyX8rNdJWVpEY32b6yaMwCJCf6AKkmT/view?usp=sharing" text="Resume" />
         </div>
       </div>
     </Box>

@@ -9,12 +9,12 @@ export default function Newexp() {
       <div className="text-white md:py-8 pt-8 pb-0">
         <div className="mx-auto flex flex-col items-start md:flex-row gap-4 md:gap-0 md:my-12 mb-0 md:mb-24">
           <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-6">
-            <p className="text-[#ffa700] font-medium uppercase tracking-loose">Experience</p>
-            <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Working Since 2021</p>
-            <p className="text-sm md:text-base text-gray-50 mb-4">
+            <p className="text-[#ffa700]  font-medium uppercase tracking-loose">Experience</p>
+            <p className="text-3xl md:text-4xl text-white dark:text-[#18224b] leading-normal md:leading-relaxed mb-2">Working Since 2021</p>
+            <p className="text-sm md:text-base text-gray-50 dark:text-[#18224b]  mb-4">
               Nurturing Growth and Learning - My Journey of Gaining Professional Experience Since Freshman Year in College
             </p>
-            <SecondaryButton text={'Explore Now'} />
+            <SecondaryButton text={'Explore Now'} additionalClasses="dark:bg-[linear-gradient(40deg,#ffffff,#c8d2ee)]"/>
           </div>
           <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
             <div className="mx-auto w-full h-full">
