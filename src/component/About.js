@@ -89,7 +89,7 @@ const About = forwardRef((props, ref) => {
             objectFit="cover"
             src={myImg}
             marginTop="4"
-            marginRight={8}
+            marginRight={{md:'8', base:'0'}}
             alt="Sneha Farkya"
             height={{ base: "auto", md: "350px" }}
             justifyContent={{ sm: "center" }}
