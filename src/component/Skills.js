@@ -151,14 +151,16 @@ export default function Skills() {
   return (
     <div className="md:p-4 px-6 mt-10 md:mt-16">
       <Heading
-        size="lg"
+        size="xl"
         as="h2"
-        textDecoration="underline"
-        textAlign={{}}
         fontFamily="Orbitron"
-        letterSpacing="1px"
-        color="white"
-        className='text-white dark:text-[#18224b]'
+          paddingBottom="4px"
+          letterSpacing="1px"
+          borderBottom="2px solid"
+          borderBottomWidth="3px"
+          marginX={{ base: "0px", md: "0px" }}
+          paddingX={{ base: "16px", md: "4px" }}
+          className="text-white dark:text-[#18224b]"
       >
         Professional Skill Set
       </Heading>

@@ -14,7 +14,7 @@ export default function Newexp() {
             <p className="text-sm md:text-base text-gray-50 dark:text-[#18224b]  mb-4">
               Nurturing Growth and Learning - My Journey of Gaining Professional Experience Since Freshman Year in College
             </p>
-            <SecondaryButton text={'Explore Now'} additionalClasses="dark:bg-[linear-gradient(40deg,#ffffff,#c8d2ee)]"/>
+            <SecondaryButton text={'Explore Now'} href={'work'} additionalClasses="dark:bg-[linear-gradient(40deg,#ffffff,#c8d2ee)]"/>
           </div>
           <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
             <div className="mx-auto w-full h-full">

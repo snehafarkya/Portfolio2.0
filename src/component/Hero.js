@@ -60,7 +60,7 @@ export default function Hero() {
               </Heading>
             </CardHeader>
             <CardBody>
-              <div className="w-fit flex md:flex-row flex-col gap-8 justify-center p-2 border dark:border-[#18244b] rounded-xl items-center">
+              <div className="w-fit flex md:flex-row flex-col md:gap-8 gap-4 justify-center p-2 border dark:border-[#18244b] rounded-xl items-center">
                 <Image
                   src={myImg}
                   alt="Sneha Farkya"
@@ -71,7 +71,7 @@ export default function Hero() {
                 />
                 <Text
                   className="dark:text-[#18244b] text-white"
-                  textAlign={"left"}
+                  textAlign={{md:'left',base:'center'}}
                 >
                   Hello and Namaste! I’m Sneha from Indore, India. With over 2
                   years of experience, I specialize in developing user-friendly

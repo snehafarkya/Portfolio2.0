@@ -123,15 +123,20 @@ const MenuLinks = ({ isOpen, colorMode, toggleColorMode }) => {
       flexBasis={{ base: "100%", md: "auto" }}
     >
       <div className="flex md:flex-row  flex-col justify-between items-center md:w-[1250px]">
-        <div className="flex md:justify-center md:items-center md:flex-row md:h-auto flex-col h-[740px]  gap-4">
+        <div className="flex md:justify-center items-center md:mt-0 mt-2 md:flex-row md:h-10 flex-col  h-screen gap-4">
           <MenuItem to="/">Home</MenuItem>
           {/* <MenuItem to="/about">About Me</MenuItem> */}
           <MenuItem to="/blogs">Blogs</MenuItem>
           <MenuItem to="/work">Work</MenuItem>
           <MenuItem to="/playlist">Playlist</MenuItem>
-          <MenuItem to="/contact">Contact</MenuItem>
+          {/* <MenuItem to="/contact">Contact</MenuItem> */}
+          <PrimaryButton
+            additionalClasses="text-white dark:text-[#18224b] w-[200px] md:hidden md:w-auto bg-[linear-gradient(#0a173f,#414c6e)] dark:bg-[linear-gradient(#dde5fa,#dadeec)]"
+            href="https://drive.google.com/file/d/1TTyX8rNdJWVpEY32b6yaMwCJCf6AKkmT/view?usp=sharing"
+            text="Resume"
+          />
         </div>
-        <div className="flex justify-center items-center gap-4">
+        <div className="md:flex justify-center hidden items-center gap-4">
           <Box
             className="bg-[linear-gradient(#0a173f,#414c6e)] hidden md:flex dark:bg-[linear-gradient(#dde5fa,#dadeec)] rounded-full p-3 transition-all ease-in-out duration-700 active:animate-spin active:duration-[12000ms] cursor-pointer"
             onClick={toggleColorMode}

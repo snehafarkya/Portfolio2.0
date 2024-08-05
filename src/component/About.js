@@ -28,7 +28,6 @@ const About = forwardRef((props, ref) => {
           size="xl"
           as="h2"
           width="fit-content"
-          textAlign={{}}
           fontFamily="Orbitron"
           paddingBottom="4px"
           letterSpacing="1px"
