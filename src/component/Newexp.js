@@ -40,9 +40,9 @@ export default function Newexp() {
                     key={index}
                     className={`mb-8 flex justify-between items-center w-full ${index % 2 === 0 ? 'flex-row-reverse' : ''}`}
                   >
-                    <div className="order-1 md:flex hidden w-5/12"></div>
+                    <div className="order-1 md:flex hidden w-5/12 "></div>
                     <div
-                      className={`order-1 md:w-5/12 px-4 rounded-lg py-4 text-${index % 2 === 0 ? 'right' : 'left'} expcard`}
+                      className={`order-1 md:w-5/12 w-[350px] px-4 rounded-lg py-4 text-${index % 2 === 0 ? 'right' : 'left'} expcard`}
                       style={{
                         backgroundColor: experience.bgColor,
                         color: experience.textColor, // Apply text color dynamically

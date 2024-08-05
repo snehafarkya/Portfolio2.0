@@ -25,7 +25,7 @@ const handleBlur2 = () => {
     <>
       <div
       ref={ref}
-      onBlur={handleBlur} className="grid md:sticky mt-4 top-20 h-max grid-cols-2 pb-4 w-max place-items-center gap-x-4 justify-center mx-auto md:gap-2 md:flex md:flex-col md:justify-start md:items-start">
+      onBlur={handleBlur} className="grid md:sticky mt-4 top-20 h-max grid-cols-2 pb-4 w-max place-items-center gap-x-4 gap-y-4 justify-center mx-auto md:gap-2 md:flex md:flex-col md:justify-start md:items-start">
       {/* <button
         background='#37126D'
         letterSpacing='1px'

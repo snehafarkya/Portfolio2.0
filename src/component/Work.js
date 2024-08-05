@@ -81,20 +81,19 @@ export default function Work() {
       </Heading>
       <Heading
         as="h2"
-        size="lg"
+        size="md"
         color="white"
         fontFamily="Orbitron"
         letterSpacing="1px"
         fontWeight="bold"
-        className="flex flex-wrap text-white dark:text-[#18224b] px-4 text-left md:justify-center pb-20"
+        className="md:flex hidden flex-wrap text-white dark:text-[#18224b] px-4 text-left md:justify-center pb-20"
       >
         {" "}
         As an &nbsp;
-        <span style={{ color: "#ffa700", fontWeight: "bold" }}>
-          {" "}
+        <span className="text-[#ffa700]  font-bold">
           Open Source enthusiast, &nbsp;{" "}
         </span>
-        these are some of my projects.
+        these are some of the projects or features I built. 
       </Heading>
       <div className="grid md:grid-cols-3 grid-cols-1  ">{workData}</div>
       <div class="text-center py-4 lg:px-4 w-max m-auto mt-20">

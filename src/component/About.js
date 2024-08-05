@@ -1,4 +1,4 @@
-import React from "react";
+import React, {forwardRef} from "react";
 import {
   Card,
   Image,
@@ -19,28 +19,10 @@ import Newexp from "./Newexp";
 import SecondaryButton from "./Globals/SecondaryButton";
 // import Calendly from 'react-calendly'
 
-export default function About() {
+const About = forwardRef((props, ref) => {
   return (
     <>
-      <Helmet>
-        <title>About page</title>
-        
-        <meta
-          name="description"
-          content="This is the about page of my portfolio. It contains the information about me, the skills I have and the experience of my work."
-        />
-        <link rel="canonical" href="/about" />
-        <link
-          href="https://assets.calendly.com/assets/external/widget.css"
-          rel="stylesheet"
-        />
-        <script
-          src="https://assets.calendly.com/assets/external/widget.js"
-          type="text/javascript"
-          async
-        ></script>
-      </Helmet>
-      <div className="w-xl border-none md:mx-28 ">
+      <div className="w-xl border-none md:mx-28 " id="about" ref={ref}>
         {/* <section className="bg-section border-none"> */}
           <Heading
             size="xl"
@@ -106,3 +88,5 @@ My involvement in various hackathons and projects has honed my ability to write 
     </>
   );
 }
+);
+export default About;

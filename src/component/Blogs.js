@@ -43,7 +43,7 @@ const Blogs = () => {
             >
               Blogs 📝
             </Heading>
-            <div className="flex md:flex-row flex-col md:gap-8 gap-6 justify-start">
+            <div className="flex md:flex-row flex-col md:gap-8  gap-4 justify-start">
         <Buttons
           filterItem={filterItem}
           setItem={setItem}
