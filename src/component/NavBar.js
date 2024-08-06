@@ -129,7 +129,7 @@ const MenuLinks = ({ isOpen, colorMode, toggleColorMode }) => {
           <MenuItem to="/blogs">Blogs</MenuItem>
           <MenuItem to="/work">Work</MenuItem>
           <MenuItem to="/playlist">Playlist</MenuItem>
-          {/* <MenuItem to="/contact">Contact</MenuItem> */}
+          <MenuItem to="/contact">Contact</MenuItem>
           <PrimaryButton
             additionalClasses="text-white dark:text-[#18224b] w-[200px] md:hidden md:w-auto bg-[linear-gradient(#0a173f,#414c6e)] dark:bg-[linear-gradient(#dde5fa,#dadeec)]"
             href="https://drive.google.com/file/d/1TTyX8rNdJWVpEY32b6yaMwCJCf6AKkmT/view?usp=sharing"

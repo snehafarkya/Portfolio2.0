@@ -156,6 +156,7 @@ export default function Skills() {
         fontFamily="Orbitron"
           paddingBottom="4px"
           letterSpacing="1px"
+          width={'fit-content'}
           borderBottom="2px solid"
           borderBottomWidth="3px"
           marginX={{ base: "0px", md: "0px" }}

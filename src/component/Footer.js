@@ -142,9 +142,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div class="text-center p-4" style={{ background: "transparent" }}>
+        <div class="text-center text-white dark:text-[#18224b]" style={{ background: "transparent" }}>
           © 2024 Copyright :
-          <a class="text-whitehite" href="/">
+          <a  href="/">
             {" "}
             Sneha Farkya
           </a>

@@ -10,21 +10,34 @@ import aws2 from '../assets/blogsimage/aws2.webp'
 import insta from '../assets/blogsimage/insta.webp'
 import mongodb from "../assets/blogsimage/mongodb.avif"
 import nodejs from "../assets/blogsimage/nodejs.avif"
+import group from '../assets/blogsimage/group-property.avif'
+import photo from '../assets/blogsimage/photo-upload.avif'
+import reactSelect from "../assets/blogsimage/react-select.avif"
+import contextapi from "../assets/blogsimage/context api.avif"
 
 
 
 const Data = [
   {
-    id:'8',
+    id:'1',
+    image:contextapi,
+    title:'Context API in React: A Real-Life Analogy and Technical Guide',
+    category:'Technical',
+    categoryDesc:"In the vast era of rapid technology development, it is neccessary to stay updated! Read my technical articles here.",
+    desc:"Imagine you're at a large family dinner, and everyone needs to know the time. Instead of each person asking individually, a clock is placed in the...",
+    link:'https://snehafarkya.hashnode.dev/context-api-in-react-a-real-life-analogy-and-technical-guide'
+  },
+  {
+    id:'2',
     image:nodejs,
     title:'Node.js Events: Building Event-Driven Applications',
     category:'Technical',
-    categoryDesc:"In the vast era of rapid technology development, it is necvessary to stay updated! Read my technical articles here.",
+    categoryDesc:"In the vast era of rapid technology development, it is neccessary to stay updated! Read my technical articles here.",
     desc:'Node.js is a powerful and widely used JavaScript runtime built on Chromes V8 JavaScript engine. It allows developers to build scalable',
     link:'https://snehafarkya.hashnode.dev/nodejs-events-building-event-driven-applications'
   },  
   {
-    id:'12',
+    id:'3',
     image:petra,
     title:'The Rose-Tinted Beauty of Petra: Exploring the Sculpturous Rose City',
     categoryDesc:"Not only I write on tech, but I love travelling and so I am dicovering the hidden gems of WORLD. Come join me in this.",
@@ -32,9 +45,18 @@ const Data = [
     desc:'The 2000-year-old city of Petra is among one of the seven wonders of the world. An interesting city covered with ...',
     link:'https://sneha-farkya.notion.site/sneha-farkya/Petra-A-Rose-City-4228d8ca1ead476785d327ac754629c6'
   },
-
+  
   {
-    id:'3',
+    id:'4',
+    image:group,
+    title:'Understanding the Group Property in Tailwind CSS: A Comprehensive Guide',
+    categoryDesc:"Not only I write on tech, but I love travelling and so I am dicovering the hidden gems of WORLD. Come join me in this.",
+    category:'Technical',
+    desc:'So, I was working on a project and encountered a part where I wanted to hover on the button when I hovered the card. But what is this? I have only...',
+    link:'https://snehafarkya.hashnode.dev/understanding-the-group-property-in-tailwind-css-a-comprehensive-guide'
+  },
+  {
+    id:'5',
     image:"https://cdn.hashnode.com/res/hashnode/image/upload/v1694518523619/e0feeb0c-04cc-499e-8889-9ad3c27c9caf.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
     title:'Initiating Pull Requests on GitHub: Hacktoberfest 2023 Edition',
     category:'Technical',
@@ -42,7 +64,7 @@ const Data = [
     link:'https://snehafarkya.hashnode.dev/initiating-pull-requests-on-github-hacktoberfest-2023-edition'
   },
   {
-    id:'8',
+    id:'6',
     image:mongodb,
     title:'Connecting MongoDB with Express.js: A Practical Guide',
     category:'Technical',
@@ -50,7 +72,25 @@ const Data = [
     link:'https://snehafarkya.hashnode.dev/connecting-mongodb-with-expressjs-a-practical-guide'
   },
   {
-    id:'11',
+    id:'7',
+    image:photo,
+    title:'Building a Stylish Photo Upload Component with React and Tailwind CSS',
+    category:'Technical',
+    categoryDesc:"In the vast era of rapid technology development, it is neccessary to stay updated! Read my technical articles here.",
+    desc:'I write articles based on my experiences. Recently, I was building something which required users to attach their photo(s). The process is...',
+    link:'https://snehafarkya.hashnode.dev/building-a-stylish-photo-upload-component-with-react-and-tailwind-css'
+  },  
+  {
+    id:'8',
+    image:reactSelect,
+    title:'Customizing React Select DROPDOWN Component',
+    categoryDesc:"Not only I write on tech, but I love travelling and so I am dicovering the hidden gems of WORLD. Come join me in this.",
+    category:'Technical',
+    desc:"It's good to see you here. I am happy that such a curious person exists! Have you ever faced difficulties in making a custom dropdown? I'm sure you...",
+    link:'https://snehafarkya.hashnode.dev/customizing-react-select-dropdown-component'
+  },
+  {
+    id:'9',
     image:meta,
     title:'Moving Towards a Democratic World: A Metaverse',
     categoryDesc:"Living in the society give us every right to know the current happenings as well as to correct the society. Take your popcorn and start reading about Love, society, peer pressure etc.",
@@ -60,7 +100,7 @@ const Data = [
   },
   
   {
-    id:'2',
+    id:'10',
     image:aws1,
     title:'Top AWS Customers you should know',
     category:'Technical',
@@ -68,7 +108,7 @@ const Data = [
     link:'https://docs.google.com/document/d/1UL8r0HgBvsMQbnA_6dRozD0kGuY0K6i76FB61TvyCEk/edit?usp=sharing'
   },
   {
-    id:'4',
+    id:'11',
     image:cloud1,
     title:'A Rise in the Clouds: Analyzing Google Cloud Revenue',
     category:'Technical',
@@ -76,7 +116,7 @@ const Data = [
     link:'https://docs.google.com/document/d/15dCHYIrvzACtLXp16cVlldBVbCOlMYJO-TyM0TMTpbk/edit?usp=sharing'
   },
   {
-    id:'5',
+    id:'12',
     image:cloud2,
     title:'Take a look at Google Kubernetes Engine Pricing',
     category:'Technical',
@@ -84,23 +124,16 @@ const Data = [
     link:'https://docs.google.com/document/d/1jozpv1U2Y8EY6ZSNTNoR4cTbj1baRuPJYFhQiFaebcM/edit?usp=sharing'
   },
   {
-    id:'6',
+    id:'13',
     image:aws2,
     title:'Different ways to get the AWS credits',
     category:'Technical',
     desc:'A cost-effective services, products, data warehouses, high-powered computing, storage, development, analytics, content...',
     link:'https://docs.google.com/document/d/15OQn6CT7sOJIIbwMzZ-qhKJV_rs5Y0NEQDiNELptlIo/edit?usp=sharing'
   },
+ 
   {
-    id:'1',
-    image:aws2,
-    title:'AWS Dominates the Cloud: A Look at AWS Revenue in 2022',
-    category:'Technical',
-    desc:'back to 2002, an initial beta release of AWS took place. It provided SOAP and XML interfaces for the Amazon product catalog .....',
-    link:'https://docs.google.com/document/d/1LCBuXMgaw-c3NnyPJFl2HMIqnz_Hy5FbSVeNBDIIw1M/edit?usp=sharing'
-  },
-  {
-    id:'7',
+    id:'14',
     image:"https://cdn.hashnode.com/res/hashnode/image/upload/v1686932554289/d5ffb956-58f2-4ec8-a2ea-bdbbb10a3a56.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
     title:'Crafting a Dynamic Profile Card: Unleashing React and Tailwind CSS',
     category:'Technical',
@@ -108,7 +141,7 @@ const Data = [
     link:'https://snehafarkya.hashnode.dev/crafting-a-dynamic-profile-card-unleashing-react-and-tailwind-css'
   },
   {
-    id:'8',
+    id:'15',
     image:"https://cdn.hashnode.com/res/hashnode/image/upload/v1685902524303/883eb839-df5a-43dd-afd3-45cf569cfc64.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
     title:'Getting Started with MySQL and Node.js: A Basic Code Example',
     category:'Technical',
@@ -116,7 +149,7 @@ const Data = [
     link:'https://snehafarkya.hashnode.dev/getting-started-with-mysql-and-nodejs-a-basic-code-example'
   },
   {
-    id:'9',
+    id:'16',
     image:insta,
     title:'How to build brand on Instagram: beginners guide',
 
@@ -125,7 +158,15 @@ const Data = [
     link:'https://docs.google.com/document/d/1Vjke2bCMLbWKYHuIpEO3iIwt2Vmc2gVGuvD9G83XSuE/edit?usp=sharing'
   },
   {
-    id:'10',
+    id:'17',
+    image:aws2,
+    title:'AWS Dominates the Cloud: A Look at AWS Revenue in 2022',
+    category:'Technical',
+    desc:'back to 2002, an initial beta release of AWS took place. It provided SOAP and XML interfaces for the Amazon product catalog .....',
+    link:'https://docs.google.com/document/d/1LCBuXMgaw-c3NnyPJFl2HMIqnz_Hy5FbSVeNBDIIw1M/edit?usp=sharing'
+  },
+  {
+    id:'18',
     image:linkedin,
     title:'Mark a impact on your Linkedin Profile',
     category:'Social',
@@ -134,7 +175,7 @@ const Data = [
   },
 
   {
-    id:'13',
+    id:'19',
     image:menstrual,
     title:'Blooming into Menstrual Hygiene Day',
     category:'Social',
@@ -142,7 +183,7 @@ const Data = [
     link:'https://sneha-farkya.notion.site/Blooming-into-Menstrual-Hygiene-Day-82f1b1013c214a9d88d1b36080541828'
   },
   {
-    id:'14',
+    id:'20',
     image:love,
     title:'Nourish Your Love: The Secret to a Thriving Relationship',
     category:'Social',
