@@ -7,9 +7,84 @@ import todo from '../assets/todo.png'
 import github from '../assets/github.png'
 import estatery from '../assets/estatery.png'
 import descent from '../assets/descent.png'
-
+import contextapi from '../assets/contextapi.png'
+import dragdrop from '../assets/drag&drop.png'
+import translatelingo from '../assets/translatelingo.png'
+import dashboard from '../assets/dashboard.png'
+import qrcode from '../assets/qrcode.png'
 
 const work = [
+  {
+    image:translatelingo,
+    title:'TranslateLingo',
+    link:'https://github.com/snehafarkya/Translate-Lingo',
+    desc:'TranslateLingo💜: Connecting people by eliminating language barrier...As the name suggests, TranslateLingo is connecting people over the Globe. No matter where you are from, you can make friends by simply using this💜.',
+    tags:[
+      {
+        one:'JavaScript',
+        two:'React',
+        three:'CSS3',
+        
+      }
+    ]
+  },
+ 
+  {
+    image:dragdrop,
+    title:'Drag-and-Drop feature',
+    link:'https://github.com/snehafarkya/peerlist-assignment',
+    desc:'This is a candidate management single page application that allows you to organize job applicants into different categories such as Applied, Rejected, and Shortlisted. You can drag-and-drop candidates and search them. ',
+    tags:[
+      {
+        one:'React',
+        two:'Next.js',
+        three:'Tailwind CSS3',
+        
+      }
+    ]
+  },
+  {
+    image:qrcode,
+    title:'QR Code Generator',
+    link:'https://github.com/snehafarkya/QR-Code-Generator',
+    desc:'In day-to-day life, we all need a qr code be it for sharing photos, documents or payments. I made this QR Code Generator to make life easy. You can generate a qr code and then download it. Planning to expand this.',
+    tags:[
+      {
+        one:'JavaScript',
+        two:'HTML5',
+        three:'CSS3',
+        
+      }
+    ]
+  },
+  {
+    image:contextapi,
+    title:'Context API Example',
+    link:'https://github.com/snehafarkya/Context-api-example',
+    desc:'A Demonstration of how Context API works and why do we need it. I Made a shopping cart and wishlist item to explain the concept of state management in React.js.',
+    tags:[
+      {
+        one:'React',
+        two:'State Management',
+        three:'Tailwind CSS',
+        
+      }
+    ]
+  },
+  {
+    image:dashboard,
+    title:'Dashboard',
+    link:'https://github.com/snehafarkya/Dashboard',
+    desc:'When I was doing freelancing, one of the task was to design a proper dashboard. This is what I made back in April 2023. This dashboard is made using html only. ',
+    tags:[
+      {
+        one:'HTML5',
+        two:'React',
+        three:'CSS3',
+        
+      }
+    ]
+  },
   {
     image:web3,
     title:'Web3Era',
